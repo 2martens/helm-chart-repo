@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.1.6
+
+...
+files:
+  template-0.1.6.tgz: sha256:be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJk4xDICRBHOTq9H5a3yAAAvygQAEYNkv6uMfXOm4YrCAUDIKvC
+mf44NiDiMHZe5opRN4UEF3rgcPbb+5g+uPPSOxrsBdLhtSvmqvYYy4hSQLdhYXCL
+nSs6xZapp7VfDT04cikRa6IaWeh6/bBk3T6JHifefKObI0qiq/FLgYZpDcRyrAjL
+2syglrgnVmOmLRG/7COZaGsCiDmzNB/roqUzfn29s7BBWxq2NiRNkttcyF/X9JSa
+pW01EQU01Sg0AnOMavdKegVCXSC22VZMW0EIiTnUn3vsMelMvxorM6+iXYT7ZQbv
+97pqPabbX8XDOQ0YPs+Mrnqrdl+f4QaYRLFtRyuiEzkzOUXfNztByyuyCqnYm98h
+aic6wTSr4HsMMhpK/CC+hvVOIyl+ydu3tUdNtbqpGwlhOVX/x1NVBOk5JG8Cw+Bo
+W1cR2NwPeeZA9yYp2ukIvS25V3awnnivQKIzUXqVlOeAl2N9EhL+pL7HJidvpglU
+EvzuFQd3mGRvAcoXIFJ2yGBOGqXG16T/rqqej5Tosj7KifMOdt+zizIehFQiXsOu
+WLrE+M9vH3esM5rrAB1K3fVuE/8QwJdLfYgSqvbNHLN4cQxOLUnOCsAP9+wEsxLe
+RPjHupYRBmYXyPLNUEX3o1iqJwTill/FaD/N6YU43DY3Mbv5C/o97BS+s++668se
+botx1NjzGC1qPt1Zzxke
+=KfPV
+-----END PGP SIGNATURE-----
