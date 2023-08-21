@@ -49,7 +49,7 @@ steps:
     settings:
       hosts: [ "shaula.uberspace.de" ]
       user: wahlback
-      source: /drone/src/charts/.
+      source: /drone/src/charts
       target: ~/tmp/build
       recursive: true
       delete: true
