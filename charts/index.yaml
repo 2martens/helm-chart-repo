@@ -1,5 +1,41 @@
 apiVersion: v1
 entries:
+  configserver:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Completed README to contain all steps required to jumpstart an application chart
+        - kind: added
+          description: Added sign key entry to make verifying easier
+        - kind: added
+          description: Added the changelog
+      artifacthub.io/images: |
+        - name: configserver
+          image: 2martens/configserver:latest
+          platforms:
+            - linux/amd64
+            - linux/arm64
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2023-08-21T20:12:16.424122204Z"
+    dependencies:
+    - name: template
+      repository: https://repo.2martens.de/charts
+      version: 0.1.9
+    description: Minimal Spring Boot config server
+    digest: 31604439528631ddafd751a64836d5fcd88e172b204e10e997aa873276512f77
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: configserver
+    sources:
+    - https://git.2martens.de/2martens/config-server
+    type: application
+    urls:
+    - https://repo.2martens.de/charts/configserver-0.1.5.tgz
+    version: 0.1.5
   template:
   - annotations:
       artifacthub.io/changes: |
@@ -13,7 +49,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:06:25.884691795Z"
+    created: "2023-08-21T20:12:16.426932505Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 454a42f431ff34b1fcd234cf3ee247125d3f844f5c058834625e02da02660534
@@ -37,7 +73,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:06:25.883865949Z"
+    created: "2023-08-21T20:12:16.426107179Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
@@ -52,7 +88,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-08-21T20:06:25.883062663Z"
+    created: "2023-08-21T20:12:16.425224092Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -67,7 +103,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-08-21T20:06:25.882263377Z"
+    created: "2023-08-21T20:12:16.424511047Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -81,4 +117,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/template-0.1.6.tgz
     version: 0.1.6
-generated: "2023-08-21T20:06:25.881676212Z"
+generated: "2023-08-21T20:12:16.420587537Z"
