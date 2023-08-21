@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Changed imaged name in annotations to show repository
+  artifacthub.io/images: |
+    - name: 2martens/configserver:latest
+      image: 2martens/configserver:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: https://repo.2martens.de/charts
+  version: 0.1.9
+description: Minimal Spring Boot config server
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: configserver
+sources:
+- - https://git.2martens.de/2martens/config-server
+type: application
+version: 0.1.7
+
+...
+files:
+  configserver-0.1.7.tgz: sha256:d31d6ca701a6f0e3799fc50e079f6dd434e2454d57960f9ab3dc1a13bc4210c8
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJk4845CRBHOTq9H5a3yAAAWogQAFdIHHeNoqywf7GUCgxBASxi
+bQwJkhyiekcKgbcARpRFXoY1PIarFKji8sLY559V7POAmfuZiZKQ38fjPtMZuvCw
+SElFhHAUu9R7wCcFX7VKueW74dG5fv9vTrsXs5JHrPwHgX+DG12P+7GLi8QBBuif
+NkNzPOrTSRPQPrVi+lNavD30zkPGRiTqv4rfegfYGtEofTOdn+fzuD4QAWGztb+n
+GMLI5iEpqtI7RbfbdArK5teW5bJVNPWrnNA1f4wt1sXM6gAR506ICgkj7fLhHplq
+Uso9keKdjH9NLnPppCYtlXYjz4yeM9Lo8Xn5s6xU3UodaBv1AwXYoKFrJQYoT3wc
+HVJIQ14YzQ2SNDx/rQyx96tEkX9dVnzo09S93cyJpYqrsGAThR8f+jb2uUWcUd5w
+yyac8/ZE4Oi8ZN6nloNHtsU6/273GjvTifaknVyz7UL2aOJb8/8YjV4bKnfz1ere
+ZViiFkYtr9DR0hnm5ouoJuvGJA3JqEdyYWmgKpMY4b1EtCpTLWDXNoLCr4xMQ3QR
+kTA0qhRYONkkmJnCauczDNZzzlviEFFg0uex2YmOxqM1poyQW8viRE3vW4+YVA4F
+TThYAV6Pl9Y8qgMnyWwCHRXRUCMdI6qrA+VF6snfj2uHJg5Ed2zlnpppC7FR6MXH
+KxOVxrT3NwxihaRUtHU1
+=TTbs
+-----END PGP SIGNATURE-----
