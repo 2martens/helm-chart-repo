@@ -25,7 +25,7 @@ steps:
       - git clone ssh://giteajim@git.2martens.de:22/2martens/helm-charts.git .
       - git checkout main
   - name: update index file
-    image: alpine
+    image: alpine/helm:3.12.3
     commands:
       - ./scripts/generate-index.sh
   - name: save modified index file
