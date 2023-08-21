@@ -1,8 +1,32 @@
 apiVersion: v1
 entries:
   template:
+  - annotations:
+      artifact.io/changes: |
+        - kind: added
+          description: Completed README to contain all steps required to jumpstart an application chart
+        - kind: added
+          description: Added sign key entry to make verifying easier
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2023-08-21T19:42:29.103983423Z"
+    description: A Helm library chart containing common templates, keeping application
+      templates short
+    digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: template
+    sources:
+    - https://git.2martens.de/2martens/cloud-configuration
+    type: library
+    urls:
+    - https://repo.2martens.de/charts/template-0.1.8.tgz
+    version: 0.1.8
   - apiVersion: v2
-    created: "2023-08-21T19:15:18.715910768Z"
+    created: "2023-08-21T19:42:29.103167897Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -17,7 +41,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-08-21T19:15:18.713452471Z"
+    created: "2023-08-21T19:42:29.10230673Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -31,4 +55,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/template-0.1.6.tgz
     version: 0.1.6
-generated: "2023-08-21T19:15:18.711425977Z"
+generated: "2023-08-21T19:42:29.100311995Z"
