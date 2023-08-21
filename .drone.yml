@@ -55,7 +55,7 @@ steps:
       delete: true
       port: 22
       key:
-        from_secret: rsync_key
+        from_secret: private_ssh_key
       script:
         - shopt -s dotglob
         - rm -rf html/*
