@@ -1,0 +1,67 @@
+kind: pipeline
+name: default
+type: docker
+
+platform:
+  os: linux
+  arch: arm64
+
+clone:
+  disable: true
+
+steps:
+  - name: clone
+    image: alpine/git
+    environment:
+      SSH_KEY:
+        from_secret: private_ssh_key
+    commands:
+      - mkdir $HOME/.ssh
+      - echo "$SSH_KEY" > $HOME/.ssh/id_ed25519
+      - chmod 600 $HOME/.ssh/id_ed25519
+      - touch $HOME/.ssh/known_hosts
+      - chmod 600 $HOME/.ssh/known_hosts
+      - ssh-keyscan -H git.2martens.de > $HOME/.ssh/known_hosts 2>/dev/null
+      - git clone ssh://giteajim@git.2martens.de:22/2martens/helm-charts.git .
+      - git checkout main
+  - name: update index file
+    image: alpine
+    commands:
+      - ./scripts/generate-index.sh
+  - name: save modified index file
+    image: alpine/git
+    environment:
+      SSH_KEY:
+        from_secret: private_ssh_key
+    commands:
+      - mkdir $HOME/.ssh
+      - echo "$SSH_KEY" > $HOME/.ssh/id_ed25519
+      - chmod 600 $HOME/.ssh/id_ed25519
+      - touch $HOME/.ssh/known_hosts
+      - chmod 600 $HOME/.ssh/known_hosts
+      - ssh-keyscan -H git.2martens.de > $HOME/.ssh/known_hosts 2>/dev/null
+      - git add charts/index.yaml
+      - git diff-index --quiet HEAD || git commit -m "[Drone] Updated index.yaml"
+      - git push origin main
+  - name: deploy
+    pull: always
+    image: 2martens/drone-rsync
+    settings:
+      hosts: [ "shaula.uberspace.de" ]
+      user: wahlback
+      source: /drone/src/charts/.
+      target: ~/tmp/build
+      recursive: true
+      delete: true
+      port: 22
+      key:
+        from_secret: rsync_key
+      script:
+        - shopt -s dotglob
+        - rm -rf html/*
+        - cp -r tmp/build/* html/
+        - rm -rf tmp/build
+
+trigger:
+  branch:
+    - main
