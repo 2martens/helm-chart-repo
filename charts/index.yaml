@@ -3,6 +3,38 @@ entries:
   configserver:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Changed imaged name in annotations to show repository
+      artifacthub.io/images: |
+        - name: 2martens/configserver:latest
+          image: 2martens/configserver:latest
+          platforms:
+            - linux/amd64
+            - linux/arm64
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2023-08-21T20:51:15.978295855Z"
+    dependencies:
+    - name: template
+      repository: https://repo.2martens.de/charts
+      version: 0.1.9
+    description: Minimal Spring Boot config server
+    digest: d31d6ca701a6f0e3799fc50e079f6dd434e2454d57960f9ab3dc1a13bc4210c8
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: configserver
+    sources:
+    - https://git.2martens.de/2martens/config-server
+    type: application
+    urls:
+    - https://repo.2martens.de/charts/configserver-0.1.7.tgz
+    version: 0.1.7
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Added missing prerelease annotation
       artifacthub.io/images: |
@@ -16,7 +48,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:25:59.169686574Z"
+    created: "2023-08-21T20:51:15.976766364Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -51,7 +83,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:25:59.168063922Z"
+    created: "2023-08-21T20:51:15.975199512Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -78,7 +110,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:25:59.17049734Z"
+    created: "2023-08-21T20:51:15.979086301Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 748418826f8626c4c5fbfae5c547bbc6170667b0e739a2161b83e709fc61b863
@@ -104,7 +136,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:25:59.173069959Z"
+    created: "2023-08-21T20:51:15.981439159Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 454a42f431ff34b1fcd234cf3ee247125d3f844f5c058834625e02da02660534
@@ -128,7 +160,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:25:59.172323353Z"
+    created: "2023-08-21T20:51:15.980703073Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
@@ -143,7 +175,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-08-21T20:25:59.171450187Z"
+    created: "2023-08-21T20:51:15.979999188Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -158,7 +190,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-08-21T20:25:59.170772502Z"
+    created: "2023-08-21T20:51:15.979327103Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -172,4 +204,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/template-0.1.6.tgz
     version: 0.1.6
-generated: "2023-08-21T20:25:59.166114507Z"
+generated: "2023-08-21T20:51:15.973386258Z"
