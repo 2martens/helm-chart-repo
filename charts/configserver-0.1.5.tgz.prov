@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Completed README to contain all steps required to jumpstart an application chart
+    - kind: added
+      description: Added sign key entry to make verifying easier
+    - kind: added
+      description: Added the changelog
+  artifacthub.io/images: |
+    - name: configserver
+      image: 2martens/configserver:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: https://repo.2martens.de/charts
+  version: 0.1.9
+description: Minimal Spring Boot config server
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: configserver
+sources:
+- - https://git.2martens.de/2martens/config-server
+type: application
+version: 0.1.5
+
+...
+files:
+  configserver-0.1.5.tgz: sha256:31604439528631ddafd751a64836d5fcd88e172b204e10e997aa873276512f77
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJk48UVCRBHOTq9H5a3yAAAEOwQAHXUM7R36SgD4tpfLf+f0I3E
+bQQgF3vBUqMByRT0znnlu1iDfvRSjLcpiiola5+/19WIHsNmE7/caNpAwKqssGRV
+9zJ1zBkbcrlPMwE8vF5PLf4QF7mx0ysDUDGWRG3yXR8JQV7UcH5uukw5rTjfWZAz
+fuv0glHIPZLtbbJp0lblqDG4rmwMX8oX/Yy0pvEwrcKhArh3VITHiI2Cjc7CZqgx
+KZRK38HDhS3xCoQwJqyw5/r22qWNX1LwIw+vzhHNemuVDjY9WfzWAGwJUF7HhWu4
+pU4fA1sgKp5UdGaegeOch0IMXpBpm4UreX3vqSbT4m7X55iZTGheWiuOLYLuNbRX
+WhpjP7AAYhLMxK32QQnofEuqvvY2OfgEiaTng90RDXpvyVEYJPYPlz9bVvlxTkpn
+LUqGDd/ylwtiqNUDmu2QZbu+3J8Z6S36o8nPTUx6uRCtNiElhV5CTIbwcZqyMamj
+tdaLcm2UoIlKMVJR30Amw0YCqerce5u7jZ+KeQotNJIBo2IUBQ5SraAntGVMO4Fu
+DdY58ypd9MJumcGJd5WTDP+UHJcitp00HRCLyyhJT5ctg9FvSffhf13U5Sk0L26o
+CNDvB5t164a5375nzxlpx+2exvF4NdAg3clXE4dpX0R4Ltj6jgnw2it8nWbjtrYS
+Cgnx5+1zXAHDL4FWLsIA
+=EAe9
+-----END PGP SIGNATURE-----
