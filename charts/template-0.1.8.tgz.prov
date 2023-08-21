@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifact.io/changes: |
+    - kind: added
+      description: Completed README to contain all steps required to jumpstart an application chart
+    - kind: added
+      description: Added sign key entry to make verifying easier
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.1.8
+
+...
+files:
+  template-0.1.8.tgz: sha256:9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJk474bCRBHOTq9H5a3yAAA4/4QACaUDqHoirNrj5Uzxi2sLbNV
+98czJSxAa/4yVvEBREnVHRwC+znfanjFmlpm9VwLVmtp1qNdH7Fqsb4msjv8sa6H
+u9H4EBnBT23C/97YcYTFzcBX96zH0ZTXAe+ndMc3edUmqYMCYRe9HWyYLJb+wqzU
+M0UjHS5IZY8XcVec9XXaWrGcd/4FjR5keqBZqTyeHoWie8NaButZIAQZs2wqo31x
+ujJpQ3LlLEDVXspjVP8wTH3gn6tUq9euWgwNzcCxnP+UArtcSi36/7PaNldn9vT1
+rCMou+kKF7x2+Ui40UlMG4O0R7x6ICq8bl4bFqJuPeTzLtUL06G+XZ/PDekaCoH/
+YW9q/qGX+OL5sLUzrd7kTHzW1Rg+VPP8s4Xx8nJGZj8es8aPMwknO3TKR11RIeyE
+/xK/Jq3y2eP17XJaCQ/X8V4ELLuwrdgiwa5xTq2VELVVUnb3iZ64uW6RzY3BF8Tu
+LTwAM5b8xMjgjokLg3snlpvsXj43l3vJpuCmgJ5+/LDArxuzETI+Q9QAZGziBkva
+vBG9rY/+YDI5daPg8+AM00eeBzthqajz5q8+PKNcSiyDEBo0ZZjQH1gSfU6ohxhM
+++ec+aV7GdIpnkM3vJI7d//IORvVgizr1+rT+6WfhjGuVMaJWa2PcJM5ZrWHGp3A
+QF/4jvMAwA7Nba2TbFMf
+=gMZf
+-----END PGP SIGNATURE-----
