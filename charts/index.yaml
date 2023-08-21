@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   template:
   - apiVersion: v2
-    created: "2023-08-21T09:35:21.192712989Z"
+    created: "2023-08-21T09:35:32.4325705Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -16,4 +16,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/template-0.1.6.tgz
     version: 0.1.6
-generated: "2023-08-21T09:35:21.191889863Z"
+generated: "2023-08-21T09:35:32.432059495Z"
