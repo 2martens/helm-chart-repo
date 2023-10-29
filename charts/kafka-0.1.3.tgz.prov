@@ -1,34 +1,43 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added Artifact metadata
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
 apiVersion: v2
 dependencies:
 - - name: template
   repository: file://../template
-  version: 0.1.12
+  version: 0.1.14
 description: Simple Kafka chart to get started
 maintainers:
 - - name: Jim Martens
   url: https://2martens.de
 name: kafka
+type: application
 version: 0.1.3
 
 ...
 files:
-  kafka-0.1.3.tgz: sha256:86dc62939b9db575e8a8c9b768b3b69e8777c5655d34f8e1650cd86e3b6c9a3a
+  kafka-0.1.3.tgz: sha256:1d0052f172fdd8605dba75b2053239a9a01de62691b376514f877723c7f88a30
 -----BEGIN PGP SIGNATURE-----
 
-wsFcBAEBCgAQBQJlPridCRBHOTq9H5a3yAAAPDYQABLK4Vss8/MlFxF9jIJ/4oyV
-tgBbEoUWWw0JneAdGkWiKewLgy5I4JLYcREIyqhgdBLdBV5Wr/dZBmZySjhlV9ml
-YXC5XbZEqEF8pNWVaAVRpZ4qBkklk4gc4CIzdegh4IavUi/oVaDhELjNMh1EyPPP
-u2ntc1gzDL0LAQLBVP5fEqn96h7qHGbEHKCCJfC7BwtLTXrXzvWv5ouqzMBtfaif
-4Z+dVXC3bRaS5dDzMrvf2QNTrO72VsN76ox2JvD3nAUTsWvYpPiXGsc8nlffTFwI
-LniI92oZI32ePRmwN9STKZ7jlwJCvzzGbiy5Jfm9XO2jHgXG7j32tDfWLsFGZzOL
-5MIpSz6PP96q/kOq9Bw+DSWgLO+X1bVcrgvAt/OwiE4XsxT0ZJi/u7tHk9+lHqeh
-GVdkDSRa5bGgs2bvg6JAazKkCXCUOkZV/Qb8ASigGun2ofmMWya2pcPAUDUQOtf5
-jtaYUzyVOwfILqd03/95kKQw7lNnA4yr/Sy28gVOimNdwABdJ1ihjlNsNjEQqCim
-X5hN7Wi7jB4DdE3CJxbxc4P7o93BSNvFnqCRnw7fwyZJGILK5bg2Zl0v0BeXk7EZ
-kVLyI0f6hL+pUmmydWyESQRqXtLNh+1pWP89TvZ/HBRjw+ERJED8qQBTJ5q0gMoH
-HPrXJwVS8+ufX4s7909m
-=jCgb
+wsFcBAEBCgAQBQJlPrkvCRBHOTq9H5a3yAAAS+YQAIHI4W0GQ+4260399okX+VJH
+BBKv6YfN5GpwwSMj8AZdgivH29UH/PnGbFMcppLYHWNufve+vruSzTZ1chFPjLpL
+4PexlAXTqT04tXJe2ci1p/qoDRy7hHy+wWRcnsXkuDV1075zHLSOYuEIc8mXI+Li
+h8u0Ibr4k0mk30Y3eVVJ0b+kBofUJ5aLb4FOlfu1k9Sj6nkWeOJO7EVOGe1hyJZ4
+hANNVJ2h9M5TdS/kxtt75pbj6kKsRGVpsIhX2BGpnqeYt4kcgpfxp9knc5ojhGQh
+r59AVW6okxVrDD3274FO4E7Tu3AU3g9GfD3Wr1wGi+sZ02ka7sISGSic/NiPMo2S
+mEx7BNh5zGXlwXxSm4uICKScUlUwiLb5QPRepmzvLxJ118TGWjaAKbPjqEKwA+b8
+Gzs9Ceq0bJu2aw1G7fhGQWnP9slaT93D4GfykjyL7RzBy0mZd+OtvnNX4F29SNQn
+Bl54EmlNljLiH5Y7MlmVmTSOsGmI/rTSd3kZPEIQ/Zy1OBjJ5xFD3rvSitM1NRaG
+Rpb94xtcVaivQ+XW/CED2y/gn730N4OtDcarZ4qHP4RqKUKmaZNZTdECeZLwlKFX
+tViFE/0+3h0r61IePKg33FTuNcJZD822yuCUw71FJZBpyFw6qXxLrib/uHP7rlle
+Y5XjKAjxDvU3s5w3k3MD
+=U5KT
 -----END PGP SIGNATURE-----
