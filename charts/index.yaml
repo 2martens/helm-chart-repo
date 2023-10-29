@@ -16,7 +16,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.978295855Z"
+    created: "2023-10-29T18:22:08.561387929Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -48,7 +48,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.976766364Z"
+    created: "2023-10-29T18:22:08.559880992Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -83,7 +83,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.975199512Z"
+    created: "2023-10-29T18:22:08.558369774Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -104,13 +104,38 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: Fixed secret and ingress files
+        - kind: added
+          description: Added support for ArgoCD application configuration
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2023-10-29T18:22:08.562843946Z"
+    description: A Helm library chart containing common templates, keeping application
+      templates short
+    digest: 6fcb903af84d7eb5bc4b740cdce4d771d2be9fbc4c94b34edd4339403e382055
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: template
+    sources:
+    - https://git.2martens.de/2martens/cloud-configuration
+    type: library
+    urls:
+    - https://repo.2martens.de/charts/template-0.1.13.tgz
+    version: 0.1.13
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: Added annotation to mark this as a pre-release
       artifacthub.io/prerelease: "true"
       artifacthub.io/signKey: |
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.979086301Z"
+    created: "2023-10-29T18:22:08.562095258Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 748418826f8626c4c5fbfae5c547bbc6170667b0e739a2161b83e709fc61b863
@@ -136,7 +161,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.981439159Z"
+    created: "2023-10-29T18:22:08.565264494Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 454a42f431ff34b1fcd234cf3ee247125d3f844f5c058834625e02da02660534
@@ -160,7 +185,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-08-21T20:51:15.980703073Z"
+    created: "2023-10-29T18:22:08.564499685Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
@@ -175,7 +200,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-08-21T20:51:15.979999188Z"
+    created: "2023-10-29T18:22:08.563733677Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -190,7 +215,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-08-21T20:51:15.979327103Z"
+    created: "2023-10-29T18:22:08.563069309Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -204,4 +229,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/template-0.1.6.tgz
     version: 0.1.6
-generated: "2023-08-21T20:51:15.973386258Z"
+generated: "2023-10-29T18:22:08.556445072Z"
