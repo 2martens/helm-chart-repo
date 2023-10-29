@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Fixed version and values
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.1.14
+description: Simple Kafka chart to get started
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: kafka
+type: application
+version: 0.1.4
+
+...
+files:
+  kafka-0.1.4.tgz: sha256:d9bb152422cce6162493ef0654d137b144fb1ac7221634e3699b34596d697322
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlPrl6CRBHOTq9H5a3yAAA2UwQAIcPFztGeKR6kV42czpDdNc0
+heeRKADGjWtZNg1lJ6O/oLO1EyIloQjQdfyGXRI3pRQ2lU8Lx6eCRw62bqdjFSOX
+NiQufWi6kJeiPb7dW3mOvnCpVV6dzE/wvIm2mTxTErMejDb4HaMe/5T5FEF5ZEgQ
+qWhwVjjLwBfoPPsHvroJZJIj+vqqXqc5NhbOhVYYZh2cuDydTYHkWP2uimdQFSxl
+/4/24wX3JBfUOyxIZPXd0ryb3WUK1X2h+4BOKYQffCAS2PQ21aGrcLqsm3bDZ1DE
+d4p6hu7c6qs3P4pNm0RQIQ3HMjt6ugCDDhpEJu3NTXpD1lfD2tY21vn5WkqqgEHi
+i0yx1eSz7gZeYEBaIF2Eyiqw+j7AjgXXtO8ZjHMdabSXY+j3gRveSenrbcTD/WcA
+0iOisdhHjhzBLe2qcZFCT+xEt+s/t5X8sqvLROGivMIf16oXdsMJ+SVRM2Eqiu7b
+w2+Sj0v+mBfc5jKpH8IChdhmeY4MKvcuBZP7kJtHA0T9CUF9Y17P1x+Dm9ZkKYNp
+cqsJYu9s058Esx7CqkicrmzBxu1CTQA00uV2yn5jGUWs+XajEzqi9grgGFv4lD1u
+0we6NJGp28fH8OB01F0mrTo1Czkz1UMbCMZZBsRJuKEmF3Vmg4QZrBl/n6VazYuC
+wdrwX0+Lt1K9nBxqw7al
+=CkVW
+-----END PGP SIGNATURE-----
