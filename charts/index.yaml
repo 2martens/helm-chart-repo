@@ -16,7 +16,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.1295609Z"
+    created: "2023-10-29T19:59:00.057101844Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -48,7 +48,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.126466545Z"
+    created: "2023-10-29T19:59:00.055391744Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -83,7 +83,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.123440751Z"
+    created: "2023-10-29T19:59:00.053926608Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -103,6 +103,30 @@ entries:
   kafka:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Fixed version and values
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2023-10-29T19:59:00.060243879Z"
+    dependencies:
+    - name: template
+      repository: file://../template
+      version: 0.1.14
+    description: Simple Kafka chart to get started
+    digest: d9bb152422cce6162493ef0654d137b144fb1ac7221634e3699b34596d697322
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: kafka
+    type: application
+    urls:
+    - https://repo.2martens.de/charts/kafka-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Added Artifact metadata
       artifacthub.io/prerelease: "true"
@@ -110,7 +134,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.132001648Z"
+    created: "2023-10-29T19:59:00.058719742Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -135,7 +159,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.135168243Z"
+    created: "2023-10-29T19:59:00.062755387Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 24698e9ca2457c65e9d663572a1486a0a19020ece1b1c6752d2f66ef8f755b4e
@@ -160,7 +184,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.134107791Z"
+    created: "2023-10-29T19:59:00.061797177Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 6fcb903af84d7eb5bc4b740cdce4d771d2be9fbc4c94b34edd4339403e382055
@@ -183,7 +207,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.133021899Z"
+    created: "2023-10-29T19:59:00.060978167Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 748418826f8626c4c5fbfae5c547bbc6170667b0e739a2161b83e709fc61b863
@@ -209,7 +233,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.13837668Z"
+    created: "2023-10-29T19:59:00.065744301Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 454a42f431ff34b1fcd234cf3ee247125d3f844f5c058834625e02da02660534
@@ -233,7 +257,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.137358988Z"
+    created: "2023-10-29T19:59:00.065003853Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
@@ -248,7 +272,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2023-10-29T19:57:45.136414218Z"
+    created: "2023-10-29T19:59:00.064234324Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -263,7 +287,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2023-10-29T19:57:45.135547408Z"
+    created: "2023-10-29T19:59:00.063258793Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -287,7 +311,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.144171665Z"
+    created: "2023-10-29T19:59:00.070752558Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -315,7 +339,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2023-10-29T19:57:45.140915228Z"
+    created: "2023-10-29T19:59:00.069038138Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -332,4 +356,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/wahlrecht-0.1.7.tgz
     version: 0.1.7
-generated: "2023-10-29T19:57:45.121038084Z"
+generated: "2023-10-29T19:59:00.051969346Z"
