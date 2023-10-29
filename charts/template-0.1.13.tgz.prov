@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Fixed secret and ingress files
+    - kind: added
+      description: Added support for ArgoCD application configuration
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.1.13
+
+...
+files:
+  template-0.1.13.tgz: sha256:6fcb903af84d7eb5bc4b740cdce4d771d2be9fbc4c94b34edd4339403e382055
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlPqLACRBHOTq9H5a3yAAA+tMQAC2JlDGa7/X9wAiNID+a4Q2X
+hMglZdzw/fsrP4W8Tp4BKRHJmIqaW+wRP6d9qm/1SfFlrC/Kwm1Zop7e77keKbfk
+bkX/IRiWgPwl1bn4zb2paCL2dvxOyykm/VtAUgq6VPbsM6h/4YlVMHz7fc3SDZzS
+A1KcME/VW+PWQdUJzI+xG6aAd3veoUiEfrXaO/+N/floKOZpcK5Ci/3kUDFulNHH
+87XS5JWsMtf/1nPFPfVUHvn7gQ/8AdsY7sBukhQUrqhXk5aREWZplAVVlcLEbYsl
+Xk649qsrBdeyzbJ2ZiKh2XYD+Fo2a6OYDOkPFZfGrpYgYWSYlmGZ66RN9PJ/9Nap
+5ZfoOnDO0d/hL0LZdi1nzw5tInL+BeIomDRUqwM7qOT/v8dGC6/bkM5qAZmh0dZ/
+wQxrBOQkdFx0FDbiim1O46/QXQnJOaI1VsRqj8lYb64K/0JN2oKG9dm67PoFSGbx
+a9sidldnbalgzTAU8kWD9DDOQIsGDeFGM5HUs0bnNkbbSxFF5Yp7lwKz8kxJJXd+
+6ISm9T/XA/mdx1j9bXQYLgjrJuFsjlVyyDIdz+43AFyrw/2t97TbA08RmQ0hgCi7
+I509dgqOxozyV1XRDab26OfsxtJmceL5m8+GbHca4K8HSgZ4t38m4+KX6+cckhrm
+gHxiNiaJqSCuZQuMiT6k
+=bJwY
+-----END PGP SIGNATURE-----
