@@ -1,0 +1,47 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Configured port and actuator port now match spring configured values
+    - kind: added
+      description: Added support for ArgoCD application configuration
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.1.13
+description: Installs the Wahlrecht API into the Kubernetes cluster
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: wahlrecht
+sources:
+- - https://git.2martens.de/2martens/wahlrecht
+type: application
+version: 0.1.7
+
+...
+files:
+  wahlrecht-0.1.7.tgz: sha256:310003c29cd5af198a2d295d36321ca0c6c6cfbfa3eb8153180d32d3f8d4f506
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlPqquCRBHOTq9H5a3yAAAyo0QACDO0vDkgeNVZQXc5VRoJaeV
+vAf3r2JNlCQXh8DqOspKpdDkRgI4emfa9z2ArRPTwOHr0PB2Wpw6WbZN0rqTd/N8
+L07KK2SCRiEdgFd/K1JzhJ8jHpJ/izb747P0lFOSs+2Y2Hydv4NAG0n7YKZHKCdO
+mJxwNti4mB+Za8xZ66hds5LbRP06eYFBgW10CSFCgwnBtMRPhjQgrNTKz3HTYY6X
+h2g44bwONN9Q068B8+UuIfgPtk6UVwX0RPIALd9RQ+a8NcdrolmApZpvyDIz+LTa
+K7aVBLPXAxY19ZZCh25QbeVrBVDDwhOycgXXMzfZ79CH2kAbNrrIunGiuLZCO34e
+G9gS2alFZ4kbGK9b+BdaKgbHs/h9T3AHnt6qzQr1hH9cMmO73t7cIsndN5b0JuMX
+NX4YybESpxoPS/ykVRjyqoZrRqyD2lRv1mCyDbQLolA3t9HbbAyPpmCV02HV61cS
+tx9HoFljx5Fy5VboSTBbgb1Br7M1AIbOYHe/3ORhptCCoadJGvZT4mxNC/S9iOLt
+lUQE12G6EkZExgGq3fZIwc30NQb/tqbhTmRnbWBtASW8KFzOAA+BH5LOcN8Ij2Zi
+8NBz/CAHE0ZP+1n46uFXNWTaHYc6ZcOPE8XHsBoa5NekOeSsjNXJ9JrKEMAqNs+s
+6buE9o0aDFj4E0J6MHc8
+=hrdU
+-----END PGP SIGNATURE-----
