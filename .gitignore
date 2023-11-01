@@ -1,12 +1,4 @@
-# ---> Ansible
-*.retry
-**/private.yaml
-vault_password
-# Helm Charts
-charts/
-.env
-
-### IntelliJ IDEA ###
+## IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
