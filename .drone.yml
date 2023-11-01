@@ -22,7 +22,7 @@ steps:
       - touch $HOME/.ssh/known_hosts
       - chmod 600 $HOME/.ssh/known_hosts
       - ssh-keyscan -H git.2martens.de > $HOME/.ssh/known_hosts 2>/dev/null
-      - git clone ssh://giteajim@git.2martens.de:22/2martens/helm-charts.git .
+      - git clone ssh://giteajim@git.2martens.de:22/2martens/repo.git .
       - git checkout main
   - name: update index file
     image: alpine/helm:3.12.3
@@ -43,13 +43,18 @@ steps:
       - git add charts/index.yaml
       - git diff-index --quiet HEAD || git commit -m "[Drone] Updated index.yaml [CI SKIP]"
       - git push origin main
+  - name: prepare deployed files
+    image: alpine
+    commands:
+      - mkdir deploy
+      - cp -R .htaccess charts files deploy
   - name: deploy
     pull: always
     image: 2martens/drone-rsync
     settings:
       hosts: [ "shaula.uberspace.de" ]
       user: wahlback
-      source: /drone/src/charts
+      source: /drone/src/deploy
       target: ~/tmp/build
       recursive: true
       delete: true
