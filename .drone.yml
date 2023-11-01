@@ -54,7 +54,7 @@ steps:
     settings:
       hosts: [ "shaula.uberspace.de" ]
       user: wahlback
-      source: /drone/src/deploy
+      source: /drone/src/deploy/.
       target: ~/tmp/build
       recursive: true
       delete: true
