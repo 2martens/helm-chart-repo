@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added support for Prometheus (operator)
+  artifacthub.io/images: |
+    - name: 2martens/wahlrecht:latest
+      image: 2martens/wahlrecht:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.1.20
+description: Installs the Wahlrecht API into the Kubernetes cluster
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: wahlrecht
+sources:
+- - https://git.2martens.de/2martens/wahlrecht
+type: application
+version: 0.1.10
+
+...
+files:
+  wahlrecht-0.1.10.tgz: sha256:37af46191befe6e7651c8b16a68cc298318358a2a27513bacefb8c64db02171f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlQ39mCRBHOTq9H5a3yAAAeIUQAE+Wbo/ECfBSyPh+2tHE7Rbu
+RngO3EZfC+6WXkD+p69acousPfeki4Jh4T84/yHCXc8eiQqWOPXZhs/wXNnuylZN
+AUgRoUiRxM1IUJrn8Vo9IgvONdlGpmpHeDPZGMNBF9gSZvave6yVfnMEHaPniWOr
+sovJeUT2GRg44LIEu0mayWt2u16iNFZygmECIU3dQaABkppQE+TNnEWMEePGm3Tz
+5qulYEJHT2xp3rTzqYSMQV3I9jh6XW1iRu8WRbmuuHOqz0NE+9llszpiZcT1MgBn
+Wvto+3OIAbIHYNZ1eEF2NsOoiQlkSgyWuSvKxfPRKwCCZTk3bA0qdmw+HR7OegBR
+Gs6eSWX3bKUcwpJMO6JGyGxg0AAQViz1a1HKtbut+YilbsfwAjTlzAQDYeYRD2J9
+T0Sx8b/4B0fm7XuXm8wodR+7ETM5pYpQ4cGGcpUA6OpNl3FiXsqIJ6vj5FnJNB3T
+4XdNXGjbVSjsU97VhygYRnSC8hF+IeitIr3eIDKLvgKTH1vBXVy6ACUtTxZzuey3
+LSEXKnYNao7jf4l3WfYj1unNYKEy0erinKZSWWWK2wiB+j6bpuMOITe6pBgI9IQx
++W/HsMCZ4kS7C6xBv+reyrElNrgVv9CFkoY+zRNwNx/jb2ahjRxR2EeYriRWtbC4
+dI5cVYqKwp8oTlA0ZIzU
+=nB2m
+-----END PGP SIGNATURE-----
