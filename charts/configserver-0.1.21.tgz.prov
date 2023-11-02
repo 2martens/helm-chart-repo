@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Added support for prometheus operator
+  artifacthub.io/images: |
+    - name: 2martens/configserver:latest
+      image: 2martens/configserver:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.1.20
+description: Minimal Spring Boot config server
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: configserver
+sources:
+- - https://git.2martens.de/2martens/config-server
+type: application
+version: 0.1.21
+
+...
+files:
+  configserver-0.1.21.tgz: sha256:e1b649a5bc8388a0349f448c9ba56c2698a723d86582c33ef224c6b07b237a6e
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlQ38oCRBHOTq9H5a3yAAACLMQADroZKsnyuDnFDWEoEBLyrGe
+S1PyIVUVnq0/RNCL2jFO5QWgluHlsbQcSqoz+Z3xLB3IfCHs10Yubkd9xnEb0Ib5
+hT/TvYQ6tyPEra0v4XGgnSYEYgXYYb4LumJ8a4Bqot2igkkNLpFBqSoG5lFK6L+M
+mqQjoHqlgXQxLJQAomB6w7oOxHRHMyHmAziUKYETkNx3izP6DjACzO8hL602B7qN
+XT4B0/g4qwNqMTMwKJVDNXuM7Mf9rgFq5ox0v01vwnWkdgD+F58ueTP0AXBneMT+
+jXmVYSVK26zZwUSy/oo/BfFf8cw+DZrVz4HrSKrecaDD46CygCqheBoNPfijETAM
+ev8SxajJiZbJml/WZnbsBmhY3XZIuCaM4/XLhXmNuqlMGmIDf5aX7YtgZPZSKl/2
+CA3LKl/8BzvbwyocGvG1EDWW3y5Rhjwmar7vz6f54U4xmizQZVMkZ2e0JKOuoWM9
+oEAYFzd0gWFJmtZDyJAherHKG17sUn33XyJOsveOHiUT+1ZnxdX7yVC2AbqTO5vo
+GmkS8gbNjX9ypxzuegUVL+5oF0NbL5gh+fOXG+Yww3f6Zp5DOtCWlfgRVYyQaFE7
+tp/wJFETotIVEMo4l70VcwDW/CQOzwT9ZkmobcgYv/OFLEYEeR8+ZqS7vOus1zGc
++Xc24Wm73z6SvorMVTDc
+=V/P2
+-----END PGP SIGNATURE-----
