@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Fixed selector for pod monitor
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.1.24
+
+...
+files:
+  template-0.1.24.tgz: sha256:1808563c428ecd9b96bcad83de53ecfb5b6299134da8f3c0ba19645a5b1832ba
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlQ4qsCRBHOTq9H5a3yAAArAAQAIpz3htXziioktDvxx7WFd7n
+lxUGG9PooHnQCQJDAmR6HeZMEPJWWq1b7Y7arumRa+eDF8JzLp5ukro3yW8MpKCY
+KiC1VyoK/UByLkJw4EF376J4L1/3Nz/Oz+uEteVSQQF7fmF4EEYvlNB9bUSuvIVI
+SQgEbQBk9JR9Fwx7gRxGL8boyzV3TCmQDiagXIyVRVeLXDO+05kpsIcuoZxqZKkJ
+ZOwmK37XIVohesd6Mnx1F8zenV2Yav5cJrAIbaOih4M0ntD7n9nX45yG/GVwxCWP
+XpjlwxYe9auYdVxMZ1/gSSHMO+LGt4mRK1iSVw4FFXfJF26/fQbTPI7DptvSww9h
+LQTwvQWuV+ghLPkJYSootu/oAiV+VNOu3enrh9tTLPr0ym8xznY3BvIznaRdvWSG
+qzruHMkE22gABCW0xJFR3tnYYAghT2Li8Nxiinw9bv3/OWZE36cWccBdpoI/IjCW
+tppkwxJMAKDgLpKVRuezOWdnZGzMnuwq6VzOtH8ieG6a3/u43Iy4phHUsFgkcPti
+dtRQhzJVXuHn5JlknRklwhzUrYgFcAubWUFfjhMfH/dKXKPVX0ORdbq6LEOvi4AO
+vAAfhmMzybUSVt/7GHoGL8SQA4eyHlZphkDhOc6X/3OT1NYz9CnUTKxzl5BWY5Dl
+FA0/m4ueVRlqugUNF84j
+=Fmy+
+-----END PGP SIGNATURE-----
