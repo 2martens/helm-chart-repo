@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Added support for Prometheus operator with pod monitor
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.1.20
+
+...
+files:
+  template-0.1.20.tgz: sha256:7e7999a34ebc615efb71a5f523207b61780fc553946739021d1fad8f2eb2a70a
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlQ37JCRBHOTq9H5a3yAAAimAQADjsKAVynyqkeGJFD6NC3CLr
+Cq7XLOb2MjgLnEBlZIJarbFj3yjudjwrTIBh2r0LWVCHSzaLV43V30sqR5ZfumZf
+22quE0Bxac3K6QkMYi9D8Vjj1aFVQLzxfBd3/M02AIT4HpBk9b40MJKjotUiwFJ+
+eamIiQK9lzRMFAqpBQwKguEOYjwkG2gkqd+5FDZqFn6IrcmG+xdZ7eglLrtDzgX6
+DxxvpJcEjh6g7kG33vCcjRgvKZnvoGrLbjgRusEFubM0/SM9bUtPsOHwE7possCN
+YxpTv5QcgUZdZ/tgtyklsCqqnjwzUGl2GXBWxSxHjBF8J0r4yK6ycemLdtpwBj1H
+yeFuXM7pGOTB6VK+t7pBnOgL33xjQ5WygXGqlA0ka7kHrjxrx0+kDvePVjXEGS0m
+y10zr827HXQ5c7OYiUm9Pf7yb6SdTzClAOZrVi2kwd6ACN5VE/8Eni5+uXX6msi0
+ziVUh83iPP5DMDHkfUPG4/Gf/GACPcb0/EZ/ji3MeEybxY9+g1Uw2WkldtfjFz1k
+gdsgaBVnRy3Z9TAgtfy3qCK2XyX+Vpeb92cGrxaYJROeLsSL3J3iFzgJUY17N6p4
+4gAagOyOsqA3RkDDFrPp/4zOxJ4kGpEQepiP7Q4ykQs1cS2gr54dtII7vQwS2jjp
+afqTWlebWD+5tACsJ719
+=/yhf
+-----END PGP SIGNATURE-----
