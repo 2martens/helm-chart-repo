@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Updated template chart
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.2.1
+description: Simple Zookeeper chart to get started
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: zookeeper
+type: application
+version: 0.1.5
+
+...
+files:
+  zookeeper-0.1.5.tgz: sha256:82278126fcad1e7f0a9e55f4b03b0f9161d2599b4e12d2d154844973033396a5
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlRi0dCRBHOTq9H5a3yAAATusQALhNevH2Q1G0wnffPgs/bxGN
+4f0lOq2Ua+ZrsQ8GoaJHk959Emai9kEVBxjPPlF0LNRl8m8v4g0T1+HKeM/nNeJI
+hltcMwWEjH5L/HHeZ3c0aOlVlTqNnXr3zOFvk+kSjFaVgkNtfivAUTUUpea1xjls
+RUU0gI4Nac6vo+6FmNAgX3oA7gg2QZYIw3ZGfscrpDS1eeHuETRJUI2AikkLHijh
+M9bP3gb3EjtmQeXaudBelke/7cFq+kCtvBokexePOmhnbhUTubXujgtV6Neqjw01
+uFblccEbdp/Ec/btr93FV3rE9+lMmdfxKiOj1OvtqibMMKEnZtKSbXFPUiCKc8j6
+OZ9nY6vAG3Nt1nMhZ1czdiWu3ApswSo7JO6UBfiNh7m9zB+Ug9tKWkA0pat8/h/X
+efe04gFMhECl4+t1apkI9wz6iPy7uKNtUIVSmHk5vqSrxB8P1PMSUAF4mHETiVK1
+due5V3hVwa4daL5GWkqffz24OBgme7v7D24pkDfDU7LpEp1a2GfMrlQMad+6CUeT
+hPCNqMo8Z4ZF1Pbe4uh2SDzaXkE33RX32amnf5rwInPCQoEmSFTKPF09/paN1Yzb
+MQOgCQyjZIr87iE+uFJzicLVtNubybwDNC33ce5EYReRlMQI+NaC74Enc+UVtps/
++YNH8n7to3rAtJF7AGJw
+=wDfE
+-----END PGP SIGNATURE-----
