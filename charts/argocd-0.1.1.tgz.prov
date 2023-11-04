@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Updated Argo CD version to 5.50.1
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: argo-cd
+  repository: https://argoproj.github.io/argo-helm
+  version: 5.50.1
+description: ArgoCD bundle with ingress and app of apps configuration
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: argocd
+type: application
+version: 0.1.1
+
+...
+files:
+  argocd-0.1.1.tgz: sha256:967a1773a352f56f4f62bc90107e46a756702882b9208e0993d1c4bcbfd62a0f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlRsL9CRBHOTq9H5a3yAAA7s8QAIYJvArspJidENSGKqaQNCDt
+s06ldCTEUf2mrJMTvGl9WnFJWDUd1uOvzjGya2myspUzhS2SeKTCxF0P4f2keE9/
+WMO2a7dXGRu6aAkBa1MVWgRTDuwTcYjV0MofRphPrJeR5z0Ak0wlhNaBaqb8eWsN
+joaz0GneHA8XT26Qxdv+0PJ/UUQhCUmJYfTC/GZ8rCkOb2TGJ+819QOA5Kj/7Q5L
+E70jkVrh50g/FmRswY1nK4Qs4cZQ5tuQpUiUK5c2AGSlncPqT2FXZyeFRC74rZZI
+b/1DIr3L55GEPxcYuDpP1aJsdLTLXV0xv9yUkFDynKIlw73hTzp1P3AecVi+jWDp
+NnG9Y1VCMTrgkRgVNwGia2obkVoaIGmjNXyiCnZOiyOo3pk7mWyCnKtuOygrnYSV
++HUSe8dmS7iV0FqxuLF4OqQmYF/zqaU7nR4a3T9NwfGROG+atRhhQRfg6qC4FEH3
+t2v/PXfu/I3xtzwhCA//2tYfOAvL+tPEzdsbdNsEb5cCQOsm4r2fuMgBefQK+GnH
+pkGaWYnAQHfLd8mALoqm5ZfJiOyXcbKXCuuWtb2jMqSBfgZOqaRA4TXIbLR9usNa
+R3agzKnXK/3fgrZhd5X3OCxyH+ATzh99FBd5JaXYoRMwyZCPzte7AhCrPAJCBL+R
+Kn/83IqYfq36XAQxxU7Y
+=OEze
+-----END PGP SIGNATURE-----
