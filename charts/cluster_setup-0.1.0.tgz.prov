@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added cluster roles and bindings to access logs and shell from kubectl
+    - kind: added
+      description: Added cluster issuer for lets encrypt
+    - kind: added
+      description: Added vault service principal
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.1.0
+
+...
+files:
+  cluster_setup-0.1.0.tgz: sha256:327054d379d6f38ba619e768cad447b6d17e848e5b3a82ee7473120d76a45be0
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlRi2fCRBHOTq9H5a3yAAA5dYQAK/6MDnDKiU9Meyddeg3fcnO
+A9VqlSjC81uwsJRhkVwEmIcsHJb+Aw7Cb3MGzTVNsALuj11hkBY3boyHMbX9Um0c
+3M/wsx6C12lKwmLlimealMWzuev8Nuvj5lsnu1C13FhZ/fkU1nz+7tUcpo5VUCoC
+XW2rofiWIJkd5HfPNYwo7mwOTb8T+g0aS49sMtIR3/pcnXXuJyqGve1fdaKPNpcV
+c5Kjjg8Sh+mCOZ33ykN3n2fUpfku5s+Fd23dEomq3fr+i4B1d1rfd2IYBqnT6tQt
+wymVeStnVP8ei7PSmBmhCxrIonHPYFIfKqaP2vevuqKompJ5EaRDjfeRghPmEbjA
+FcAW42IjIY7K2v8ZfcANOjBxnxAEMN8fiignjQvKsOQKAQ1NzLMNoIpbrRXBELrw
+uFzak9OurjYziREn9wR5Rxed1Z+h8hjHcVSg+aUXG0rIhewlTF05WC4gF59uJPX4
+CYShZVgsXKNGA6qAyWgzsjUi0fX6JQVP9oJLTsFvVUqzODWfnD2MJkTsaMY9iCLb
+ITkH0bYHgDpJEuTmiWMVQ7l4T+74ZrzNtLjpxVAfw4GSkTEf5/Kq7fn9nbJuWfjf
+8N6+KBg91M5T+qnrsOiOotr/k3wpDH8p6RHOPwY7jrGPuEqHAk4OIFWMMcKTWrhA
+dCJEYbMi+0jkVf6T+PFD
+=QQm3
+-----END PGP SIGNATURE-----
