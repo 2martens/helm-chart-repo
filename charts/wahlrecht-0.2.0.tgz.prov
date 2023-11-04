@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added support for vault secrets
+  artifacthub.io/images: |
+    - name: 2martens/wahlrecht:latest
+      image: 2martens/wahlrecht:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.2.1
+description: Installs the Wahlrecht API into the Kubernetes cluster
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: wahlrecht
+sources:
+- - https://git.2martens.de/2martens/wahlrecht
+type: application
+version: 0.2.0
+
+...
+files:
+  wahlrecht-0.2.0.tgz: sha256:9f7152b9944ebbe3f7b304c05594f14100fce88fc5d0970674dbe70dbe9ea7ef
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlRi01CRBHOTq9H5a3yAAAH6EQALDT/y7IYdKiS9DpGQithmKq
+HkMJTnPaq+e8RczvlhHkinv+rm9iQ40vnylzmqLBHW32d8wyVpfQpQXOBqgMouAn
+a8uWZMbOIug/kgsVjW3JJ/tsljf4WM6PryA6UCR5yEGT1hwu7MsiJG2QZJKUwqxo
+dg+llb/JDZyuGZX/8oT7dZCB0WP1Od83AD+/bcJCgfIqDaaYfj6fZ1lX0jRObgBv
+SBJ+/1nxlncP1z9KeA8z/lvKzB7cB0bqA69L/j276BWG6oAyvBbg5Ik7hZ9u6osb
+xrJp8UOzsDMcswWXbpB7q3mYuMzMXk8KHubqD1/xK+8KZIDsSKmzHKkiTn+9Xh/1
+2myKW7gjnnSO9LRc8iaKymTnjlnwh4Uz9aNUQxDlyLPcVZyJQnDy/TI0BvmkSXIA
+b+XfK9bpHyOK6Uf7/hMjAqHd0LyziBmOX1E2PVoKxAhfxaM+YOHM9mbrVh1gh4BV
+A490Rx1YIfeGY9KY4tEiLwStS+ym6UiqyMEjljmaEkbb3sqKMWuvYxmBi6hJQIDo
+KP29qXl69YaSFnayn4XRsb0u6Mz3hdSRAZ1NeA84iQYw13XOrQa0ansG9j6GpBJP
+1T9W8I6JByGMK/xkzx1vTFvnETvQCSRFN7dPvcFuKyiVkzd0kqcbWrCfokYbpnAx
+MJoxocn8CawMtMuX9dH5
+=fdqR
+-----END PGP SIGNATURE-----
