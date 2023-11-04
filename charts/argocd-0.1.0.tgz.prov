@@ -1,0 +1,31 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+dependencies:
+- - name: argo-cd
+  repository: https://argoproj.github.io/argo-helm
+  version: 4.7.0
+name: argocd
+type: application
+version: 0.1.0
+
+...
+files:
+  argocd-0.1.0.tgz: sha256:d107713a927f26096d297e396f724dd470c95fed2c6a9a22b2840bc283781fd8
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlRi3fCRBHOTq9H5a3yAAAvZMQAEdjxDgRPv+Ug12QJB8Ci1Xu
+8lv0vcnoaUKOIvXB3Caam2v6MlcYeTm/eBSpL+1/P+N9swYuZ90KsvDAg/wi7l0b
+SWrmf4OIyAKGtrHObxyh9eJ/VPH0jNGBz0XNaduK2kygwhH45MXMXd5/rlz7j98e
+1bJxHDdC3EVo23DsusYTIyNHlmz4nE42STlUv7LUS2z/AwHW9xwTQl+Re8K3/Wch
+NIbhSrZ0u4t+6QyIc4Kd0NbAvyd5563HbjNFZ0IyrYFK+8KaB1ReZ1QSHwDKgZ7F
+frqz0mAN8dMnj4A+SXhscpCRARrWkZOOkWNqCuy95++aNlWq86f63zyoXnlUrmzK
+E4NSwffvkqHh5AF6WNhj/mVl4wog31n3Pjb6V+ZxsgwfcP5j+54LRKrYMufsmmDV
+z3K6UgPjZX2Vzp0qs3e18Rr0CxvCA0ltZnednbLbc3SkC0GJh4hYYb9a/3oUVelz
+hvjXw5o2NxeCTwLe7Ue8McvuC6YSe6e3gqgsCIvbUXkQIi3qmCRFyl0hsCuhkICv
+2fQxQ5uFL7TSiwgPi0rP2V0rw68CkQ1N/7d/d6bz5TptYMI3ij3Wiea2myUz6Mi3
+4OGEBje2MCqLXJEI4j1ERC05pgsV2yPvaLUQfObzsXC43gzp6ujkFIAoNRDzx5CO
+pfJpYC3y3m09UuMu/hDu
+=sV8M
+-----END PGP SIGNATURE-----
