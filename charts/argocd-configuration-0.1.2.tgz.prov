@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: removed
+      description: Removed direct Argo CD dependency
+    - kind: changed
+      description: Changed chart name
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: ArgoCD configuration which requires Argo CD to be installed separately.
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: argocd-configuration
+type: application
+version: 0.1.2
+
+...
+files:
+  argocd-configuration-0.1.2.tgz: sha256:f959600392ddf6409b7d53191073ea0676a355c9c63b81a2818e12af6813933c
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlR1bzCRBHOTq9H5a3yAAAcogQADXkGPIpv8GlhL10L4AGf+4d
++GV+ataZshUb7A7yTlCO1BRnboXmAHNjFRxzOw50kukf5UXE1OLFfa72pZ/HNXPE
+Ima0h/hz2B7lSMA7kGLmVQbjVqtrNyr69d34Sp6t/yoMs8FhSiFqGZBE+/0Gh1u0
+bCVN7gRxiOqd5DyvD4Yu+5nX4rGTEbtd+5k7hiG1tjdLVazSYU0NjtL3pH5b7i+R
+kP1fs9EiA9AhcBuud/lEKnAqFUrRbLclcouCpTCHh1Fl1HL1g3hZx35B5+4ENsBG
+YGmbnSpSIeVX8m2aVf1Zh4CchlUnlR7HLj42JOck0ASQoBIvvZThMb65uVBCK17h
+HRMEANZa7vbeP3EtioCMMDpkOi7E+FrMkj/PE4J5DpfS7cNa53sj75iDaBYxvrMr
+heruA6rDIZoiMN8hF8wIWioqrYpD+Y9AyPjSVPJ9gppq8AyfCo1H22dPYwZ2gfiZ
+UG/EGSx8z01VpQiGK8ENs+4DkwgNAc4g1cs9DywINEKukv17c/S0oi9yVjB7An2p
+cZZoSEdjYmr6y3ccHZskih1k5MskE4ac69bv/PyZiKSUVfZElDtW3F85jHMGZ5us
+9Zt2AKAAfbsRE7ZBEkmZnGg6+D+9zmtH0fm4kJc5BmkAP3RoW0XCASGhYM/3ofTp
+WBIvaBX6X37ap+S2Ijfw
+=I6qQ
+-----END PGP SIGNATURE-----
