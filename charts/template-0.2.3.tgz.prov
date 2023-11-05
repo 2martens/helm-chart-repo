@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Reverted path to secret for vault
+    - kind: fixed
+      description: Changed namespace for vault secrets app to release namespace
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://git.2martens.de/2martens/cloud-configuration
+type: library
+version: 0.2.3
+
+...
+files:
+  template-0.2.3.tgz: sha256:a74076b595a1847902ab20c68a3f9f0f0af1da493d5e2a9431c2a0d4948b131a
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlR3JMCRBHOTq9H5a3yAAAGNYQAJQej4+Er7hDv6+ruexcBsTA
+W9zUf73Hl2caF1aVMtqbASzNaP4U/ofd9qPtEUgKOyfeZiVocDrUOi+BTG3wnUgZ
+2Co19zolc1xWklzAnILq/Dzo0Z3BTkedWXYeXxXiX/nsSF2kBxKMKyZF2wrdTEGW
+1R2kQClmZu97L2yjzmCTiTXbDHVMOnUC420tt5HQ6is7ydUdXWfx98LBT3xV0PC4
+1dQlzE1BNDP+YhOH3reYEZqYju+mnRcPmnoMur3qlSwrFnsiUo7A7GQFLS3tAzrV
+RTNuNjD/t56WqlkSV+gyB6WFSuCds5LqtITBZQ9Y0pPuSGnEBGKvhKDab1JctCgc
+Ck0YYSlDA0rOoaEn5zYkUuOUfstdDP+LPBLSHx++oxf78WmYSoP8NFa53BY84rNh
+rkmOU6ML7vDuwCyZ2WOSKnGvtbs4EY9quVeokmHGlNS16dJgHoXpMBuTrXwQyqfJ
+QyJJe39VxpHpxp8EV7UOXOk3Kvi4z+xBQVE8jPbjOkNsSM0RyTVb32ZmZs+IkNGP
+quD8zEa/LPeZbamf9dE4vl9qyHbn/QpntiKq/cGrqT5EHQ90wWI+BKBdTrqwsN2P
+FcrfF86/L/SxG0xvjQlrgitzu9ZULB7qgyfkdibYsDLyvkhCFbHUp1S2a2+Zw2zt
+05iuTsiGELSDCjGn8AOl
+=6g0s
+-----END PGP SIGNATURE-----
