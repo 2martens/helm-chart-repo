@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Disable thanos by default
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.3.1
+
+...
+files:
+  cluster_setup-0.3.1.tgz: sha256:521b368610a403f85e032b61c8cebcc697d22e22d0fe8e395edf79a318b406a0
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlSV3tCRBHOTq9H5a3yAAAmlcQAGYovczwEVh31wVLsuRgVJ+v
+DkrQbC9HvLApttOlb+JIJOJSG7h5a6dGel9K6PbT1pIAxzS3SoBIiZNgGMcTmjgr
+/Juw1YARw/b0+MqlcZoys+w3KZ8r/EYHFqIZcTMWWd8TFk5HFKkNvwOPsQbBt25C
+hWsMpf19uoaj/4EXY3gPfHfRL3sk5qfdQPg+LW1scJNmZfL2OQ97LGbpr3j9TiS7
+DUGosNiORxFu+FkKxSutylVA8oKGusn1hQbwcUUhQOl8KvdW9HXHnZLIyBYL3+tt
+AvLDN1OMLIDKux3IXsEcBRosE1+Eis8WsWO+1HJiWpguZlLzaX5TftlinmHHaXq0
+reP4d3moVvI8N/0vpkZE7KGSKkFu8W6nFeGFbGj4NZC5eGTzwgUkSOX9TSAXk2U2
+w8Mc9iXnnjapvan628qp1GinIvbIjJsQcKX9+aiimGj0UjRmu2wo3oTG33ho/VbQ
+snT6hnrfFKhZTfXvuEl79oB4UrE+07VNd8YMd+bi+Lbb9i4r/h3vmJkoGutho6pf
+T32cXJdVXtH2nunsVj8RJXrnvaBmPWAeMIiQ29qg6k3FI1iP3RQHSVeZT06p83q9
+mbY+jSnJYeEC/oeyYkhTXi4QGYOKr0hpdbqtYwAdJlAeas2jGBqZnIu7SmED9L70
+iaSpEBduCajuKeZYRO0M
+=+xNV
+-----END PGP SIGNATURE-----
