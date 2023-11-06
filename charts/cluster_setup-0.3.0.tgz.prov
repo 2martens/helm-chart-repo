@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added support for thanos AWS S3 token
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.3.0
+
+...
+files:
+  cluster_setup-0.3.0.tgz: sha256:89b633f50cb979ee21dfc07f954ed3194d064950856c9724d5d6ec65cf7c2a63
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlSV3ACRBHOTq9H5a3yAAAoywQAGhm6PKO2UoFNACFICb/lgBz
+pijICwaBYmk445/Oe8f/loFKGuzkP7mRC6RBqwARz5iO3EybzqAijhMdpUqS9DDF
+vkkFsxX4OJJeo0et0rrfsBIaudSsvxVO8b879rU1cgzYIK7wCqo54JuG5VsuMEqr
+XhSenll8paKMPCbny9KjoQ/yBdt5U2eyQVWjh/GHTTqdABLu8NA2hSMVuxbXeYGU
+vg2noY37sWJisB2eh1tQHRn56idVQthlP/Ohhg+o4NNh3Us3VpCXRdqiGvoP4OEf
+O5GK4LOfO8WV/gBOCgiGk5SJNhSePo+fLs6K2nKC4y0a7G+E3HmPMHdzZ5xianr0
+T9skmQzBVIXv34S8GpbEANe9pazsvzjJKJou8gCO11SpE0P2IMAAfSwqkZ7kz94Y
+71Vil/5xIUtmwNkAq5mQiREK0opVNHxt5QednVZLgWsurzDnY7fjw67WGkcnrphv
+JboFhc1yvVQYkL9kofBNhCZl0qzI1GIJKNAZUjjY14jVq0VToNi8V410YCW7ORmf
+KAK8EA/+Xw068ozZw9OP5JEToQpab/UYNZYS/q+macV+HVefh9/vKC45IZNnhhwj
+4WITrhKERzhJcrMWIMvQeQMe2dhQD4CSl6TT7mHHrjlcT7Fbg36BhpTausOeM55r
+cp695uHFNUOf66OiAmkZ
+=8hJV
+-----END PGP SIGNATURE-----
