@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added support for hcloud token
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.2.0
+
+...
+files:
+  cluster_setup-0.2.0.tgz: sha256:3379aa725d77ce6341e372ed928596122cbe0b58c017b961b3c906d6bd463f90
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlSRxnCRBHOTq9H5a3yAAAprwQAIs1met6CGMCpVeFLwiHtfMN
+FAwHLHpOFjhxnGQfnVO1ERltlxl9WlAoFpSdjqzIAso+0BYHFKMYZLMpb9qXjhNj
+WkEn4PcydWqQjUJvji3D9+9KVZ00ZIyVSfKGigtOwiyJD/opQa+668WmZxbpgJhd
+MFTdBQM1SbLwjylYNpOdiiXAfScJ6iAIxcdtAr7DtqV77uxfnS1fZuV+YEeSTit2
+KVusTifzgqwFTu77N/Jcrd1wICRjNwYFOvqLeJJ5Xd7gnXNRcmylt0EqCFD3Q2Jx
+kYlbN07GQGo+ACCcKgxk7NVGeV0QJPTaKe8v9IkhbDrXIV2RzLlwKRT+B9SDiWSQ
+AsJUHkFV6uhm+xvSZA4x9P/62MEOoJ8bbDrrGKj5c/KzucEm9SctZEQbJ6ckpL8t
+0nbDoBJlGa9edNyz/K2xkyhs/0Sw3SXqFPdLpoulEgWL7vJQJQftyLZTb3na7YhY
+7hioNPBhFn+wY1OLwB/svFSEflBfToAyHK0SlJknG/Xx+IHGLthf9Ml+ai/KdmJX
+o+4VxMextcYuf/e4E65v0JvQcGO9t6Xs2ZvWA8YOQcdqw6COrwVmEW4syWEqZwvQ
+m2c9DSn+7bhpcRdC2okFg7wFDbTOXLTk9Qh5FbMy/r6P0vP8NWz4zxPRkYfw8JTi
+I0DyM0GeH0+VsuB0x0F1
+=XaIq
+-----END PGP SIGNATURE-----
