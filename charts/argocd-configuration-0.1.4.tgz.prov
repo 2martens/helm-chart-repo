@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added gateway support
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: ArgoCD configuration which requires Argo CD to be installed separately.
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: argocd-configuration
+type: application
+version: 0.1.4
+
+...
+files:
+  argocd-configuration-0.1.4.tgz: sha256:bd092a2602e5aacc35c44f1b6c196551e7d12aa6a2f5ded644b33156189e8911
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlVOp3CRBHOTq9H5a3yAAAtOkQAF5yC6DNyUDcNbGZQ7ozRXQJ
+g+sSoaXpnDZWn5ZEhGxsjCMix5nZl8jYPwUuQPhdQK1s//aOSZBnZUK6sb+1BNrm
+lknxhHT2ZkoZcMu0J+hr9+tg2LI7VCgBPnIN8awg5ZUKw5/oMJuciSormTsUonXO
+ZRMNehB6dh7zIDDB/ODVumKBogctvoxwb28iolBmTGnX2b6YRebWi75ieE4UJj10
+71XA+RJSVgfEfyBe6EmVd5EdmF4fm99AI8YgUzpDcD8yPY7graXWpnw44e055ElL
+E1OX7eXLvmrURxX3UA2r9l4R3dWyhZ1C9MLsAbxpDxadQKRJ9eur5t68xEwjwxf7
+kgE9O7bW6HzC+6KIj/rp26iyqVHbWo3J48zA0qjudi7mwc9K36ucVmjxTKYWW7zI
+GZV5xlZh5J7YBU9awv48fdVwGFcijzBuTH4CRWH8JUDVYqJO2JyhT7Tl3YjZb1hN
+8BCvm1cV2Pk+VGaqHN3BA2bRMAQj5UtjjsMUEuoNg1GTCbUnxwt6r6wV7RVEIFf4
+E6m5WtDCf7xvD6Ro08dAt1wIhQ4xhmxkP8jByGkh5ja9Ber/mKYRIkn9TBnYtefv
+wmtSKxBHb9RVCytmRxpipZol4UkNT0XPBhCSEuntGXg91RNo16QNobJUPEevyfUd
+dExvsepFyLK9wzFhOK1R
+=H8Ti
+-----END PGP SIGNATURE-----
