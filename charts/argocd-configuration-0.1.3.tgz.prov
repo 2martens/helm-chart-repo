@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Made ingressClassName configurable
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: ArgoCD configuration which requires Argo CD to be installed separately.
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: argocd-configuration
+type: application
+version: 0.1.3
+
+...
+files:
+  argocd-configuration-0.1.3.tgz: sha256:7db83d5b7d4ca2c42fe805f67f4b0da980081b34615969623cc62bd7cfc615ab
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlVNQDCRBHOTq9H5a3yAAA3gwQAB7SSdzk38lIbwEOvpyRdG9d
+Xw5P+7Ha8FljE+wxz3QTiUp5gzLyYY844736d9+Zw5HWUMaTBKvGDWpPs9olxe/f
+dp/9Cogxn6YT8vT9oHVsfzfwGB9Z7AsZFyg3nfqJDHufZKUkWF+U2CFbdUj2/CLm
+GHaRVyz1Qg7ZbWEkygYJQXwhA8rqyOB1Wl5RiZhxxVihVbRbmSoO6VmngdPpoXBf
+fUT12PEMsKvEpKYK4QFd+qF217WoaIxBMHHf8Tk2CHFQfJ9Yire0tVKa6arO2jza
+B8/5a6tCyNmIzGhOpkcA6IehWi3JGpedT2pl8EOPEcJ4bKIKzwpHuehLtJxtdV2m
+3Xck5r5tVFyT4zdA9eyOtXKv5Q6Orew7/oYofX2lfsGJMMbCdcf4U8JgIRfsmXeW
++FwunimAwKZ8ooPZf9VV9ARokTBffYzI+9jJhnMWHOfxmd9ltIUTJO/VrlMfZ6oq
+5f+TanYmqACk9DV2u1WLtAAuaPZKK0jBNfdbz1bo7AP+zHTacNbFbb9331vRD+XU
+/21BPOYOiSkIc+RqHWWBUFgKp8eYb5KzGWTi6eDrz+i3sIvDae8HNlPVOimrgi34
+OG1xrLevfvSskAwiCOA97l5FfMNx+YrCDHsUA3l0+bi6scSr9uD3FtDAubsvxlJ6
+ferRstsNrEVD1Sy8Dbdp
+=Vg31
+-----END PGP SIGNATURE-----
