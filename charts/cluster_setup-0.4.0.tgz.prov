@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Added cilium network policies
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.4.0
+
+...
+files:
+  cluster_setup-0.4.0.tgz: sha256:e47df232fde0fe08fa11854691884c4374c845eafe7e2479b292ce9d1cce0eac
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlV4l3CRBHOTq9H5a3yAAADfkQAAfTHywHIMpJj6+ZQ8+HBP7V
+OezrIdCP3wy2libDHZXxnXy2bk7UnSYYGm42pND4ym0QSjQurZOccVqsQdkzs0Ej
+XyWJc/9BJfKmqMkp7b4Onfm1Ucl7nXaX7M9iccgQkZ8Brg5iSHLvbQz+xO2jtuyP
+WvZ0fbxNlEr94mlPOtEtwHj8VBgWzQ56LifTjxsWS3J52lRiiSAE93gvJmjhC+Jf
+dcNrf1dQUAL05CFddK86tmmzVGwbSawIkFj/tGdkUgkV2TRECZG9AzLMb4quAh/x
+rpSz7B7j/OfnWS1dQFRthmOyvXqsQFhU75QoguuK963w8+Aat5BHMHkIc9lT07rE
+54h2SXrlQQDjX1toxDG1Mh9pmsW417rhJZah1f8guKG87TJh3kVqNAMMsf81MBdu
+L6IuCkZThVd+aunAG7LFNOdIrWe9UvgQcZhESAq6PGgDtqfYqqQK7PvbA+UamKCc
+cYgh1f9zOCWi5sKTPf1b8dSvhIO07prV+JVTiqhXzMoQKkbLzWpauH8PdpN+f3ML
+wDPgrIVUynmYkXh6k1dJiM6Ve9CUS2W/kbR4xynIHpNKgxsPUSyLL841h0NDcXKp
+DSNQK8KZCS6vsO9OxbYhovVDdWkMLxFr76du/EfK3et5vutDq++VSsR4r7dtG1mk
+c4WyJ8L6CncRHZEo/11H
+=iPif
+-----END PGP SIGNATURE-----
