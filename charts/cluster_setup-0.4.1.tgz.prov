@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Fixed network policies
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.4.1
+
+...
+files:
+  cluster_setup-0.4.1.tgz: sha256:b3e811f6f44fb5cd3de9d03ab226e258e793e981fe45f9d180109d2c3e8f8120
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlWJ7wCRBHOTq9H5a3yAAAcecQAFhvbCYcD7k3WwUuXpIWUImo
+sal9o7hV8J/bbTWx+tVx7PJ6ok91awxGOLzjE/f45SLi6Fz32PMfU/mGUQHoV8Ix
+jup3mJbWjRUDQUGIydkAFjKxFwTO8RNg4WvYmvACvdG2D3GMk7M3awxtOl+Lgj7T
+gdVoFWabGIYTreW/IwYyg/Fghx91/1Ez5hldCAmd+9jiSxD2viWZhD1DAH4luory
+d1bxf3+Bpip6E7es8yAFtQXC3K58iCPaw5DcqhgqjxpiNii6VDSFyXr93iFZfxuG
+wAKdfmqiJRTTYc1mGMA8RFcYky9QI+3QQhRDqO8hhnlP/rchWxCIkbklcaA7kLSs
+jC0rAa6ROD2UYametFzU/jEb0PDJ7coFcWTTiMUigMi033jFSpBDRdeU7syWDFjV
+lvJ0kY5wf4Sjk8Js1yJYTxVl0prj5y/lPtII8Bt89GN+HbC6VxaHxgQKqJczM5cj
+CywltMpTFzPXrPL6x3B8XstYprI8O8N534D6u0VS0kMvu6XBBuz1/u5YxNp7KV6u
+v98Dg/5oDSDfPnB9BXQOxQACcL20kPoBpD2e2DitqFJl1AmUYqcoQB5lPytyF/Ma
+20An6x8sg/BVq9T6bXkv+QFneczMgO45eJAE/xO/ycSrwbbjjyYSg2BiqPZYbYJ0
+68irzbmEPxdwsE4W0/64
+=PGji
+-----END PGP SIGNATURE-----
