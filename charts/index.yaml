@@ -10,7 +10,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.778305361Z"
+    created: "2024-02-04T22:07:31.574721722Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -26,7 +26,7 @@ entries:
     - https://repo.2martens.de/charts/argocd-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
-    created: "2024-02-04T21:52:07.761236903Z"
+    created: "2024-02-04T22:07:31.556188008Z"
     dependencies:
     - name: argo-cd
       repository: https://argoproj.github.io/argo-helm
@@ -47,7 +47,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.78092473Z"
+    created: "2024-02-04T22:07:31.577827575Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: 0464f91daef0f4fd245981b8edd25576d26074a18223b36de54f2e19a50fea7f
     maintainers:
@@ -67,7 +67,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.780653849Z"
+    created: "2024-02-04T22:07:31.577477893Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: bed037ea544a732fe3336e39cf789cdee612780e639d202e05b1ad87e88619b8
     maintainers:
@@ -87,7 +87,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.780392328Z"
+    created: "2024-02-04T22:07:31.577132212Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: aaaa9ab688e6266aca2844db075a7966dabd0576a8f682c35830a070f41fbb03
     maintainers:
@@ -107,7 +107,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.780128567Z"
+    created: "2024-02-04T22:07:31.576782851Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: 3434101662720648118e98f6e97e1953ecb05c7bc96e3f737e80579a188f9535
     maintainers:
@@ -127,7 +127,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.779853286Z"
+    created: "2024-02-04T22:07:31.576466609Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: c9c57eb986b0cac102f9763935499f47547e50c3529e6859e5968c6fccd3540e
     maintainers:
@@ -147,7 +147,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.779586405Z"
+    created: "2024-02-04T22:07:31.576142768Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: 69b497b28cb6f627a8e8245b8624c09d8a8c9f3257f73f7f9b9975c8cb4a020e
     maintainers:
@@ -167,7 +167,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.779347484Z"
+    created: "2024-02-04T22:07:31.575857687Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: decb619118d60aee583c7b5a413ed00ca7b194cd5cbad11a52e8ae35d53fa8da
     maintainers:
@@ -187,7 +187,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.779070803Z"
+    created: "2024-02-04T22:07:31.575576846Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: bd092a2602e5aacc35c44f1b6c196551e7d12aa6a2f5ded644b33156189e8911
     maintainers:
@@ -207,7 +207,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.778827242Z"
+    created: "2024-02-04T22:07:31.575296085Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: 7db83d5b7d4ca2c42fe805f67f4b0da980081b34615969623cc62bd7cfc615ab
     maintainers:
@@ -229,7 +229,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.778595362Z"
+    created: "2024-02-04T22:07:31.575039884Z"
     description: ArgoCD configuration which requires Argo CD to be installed separately.
     digest: f959600392ddf6409b7d53191073ea0676a355c9c63b81a2818e12af6813933c
     maintainers:
@@ -250,7 +250,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.793659773Z"
+    created: "2024-02-04T22:07:31.584967883Z"
     description: Initial cluster setup
     digest: d6695a226d6d990024c1d68c53393819c09064f24c5db2b09c0477d2d3f98cf5
     maintainers:
@@ -270,7 +270,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.792465089Z"
+    created: "2024-02-04T22:07:31.584519362Z"
     description: Initial cluster setup
     digest: 46ea50e4ba6988ef2283137224dafc78cfffa183ac81ccdcb60470d2b295f09e
     maintainers:
@@ -290,7 +290,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.791559926Z"
+    created: "2024-02-04T22:07:31.583024116Z"
     description: Initial cluster setup
     digest: 56cf11ae4100ffa593801979ccaec3d7a7f574a8d76197d937af3bf3c1f27e71
     maintainers:
@@ -310,7 +310,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.790674643Z"
+    created: "2024-02-04T22:07:31.582445633Z"
     description: Initial cluster setup
     digest: b3e811f6f44fb5cd3de9d03ab226e258e793e981fe45f9d180109d2c3e8f8120
     maintainers:
@@ -330,7 +330,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.789224078Z"
+    created: "2024-02-04T22:07:31.581776831Z"
     description: Initial cluster setup
     digest: e47df232fde0fe08fa11854691884c4374c845eafe7e2479b292ce9d1cce0eac
     maintainers:
@@ -350,7 +350,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.787762553Z"
+    created: "2024-02-04T22:07:31.581272389Z"
     description: Initial cluster setup
     digest: a8985e543c9320899700dfeb54653ff21074fce2ee9449aa4d98d07839c25f9c
     maintainers:
@@ -370,7 +370,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.78699607Z"
+    created: "2024-02-04T22:07:31.580857427Z"
     description: Initial cluster setup
     digest: 94e5a7e9299d4b3cc18826b598350c035d8f6bd99f319b7ff18e0da6a54e997d
     maintainers:
@@ -390,7 +390,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.786073227Z"
+    created: "2024-02-04T22:07:31.580520266Z"
     description: Initial cluster setup
     digest: 57368ad1ebed6fb9924b0c0f50809a8755321004db805ec69252342e1014a695
     maintainers:
@@ -410,7 +410,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.785322785Z"
+    created: "2024-02-04T22:07:31.580159064Z"
     description: Initial cluster setup
     digest: eb44254e0acbc8d31d72cdf1f1ad083b65d1ba81e07f7c941d5ca2fb585fba02
     maintainers:
@@ -430,7 +430,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.784660742Z"
+    created: "2024-02-04T22:07:31.579829703Z"
     description: Initial cluster setup
     digest: 521b368610a403f85e032b61c8cebcc697d22e22d0fe8e395edf79a318b406a0
     maintainers:
@@ -450,7 +450,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.783669619Z"
+    created: "2024-02-04T22:07:31.579520502Z"
     description: Initial cluster setup
     digest: 89b633f50cb979ee21dfc07f954ed3194d064950856c9724d5d6ec65cf7c2a63
     maintainers:
@@ -470,7 +470,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.782131294Z"
+    created: "2024-02-04T22:07:31.57919954Z"
     description: Initial cluster setup
     digest: 3379aa725d77ce6341e372ed928596122cbe0b58c017b961b3c906d6bd463f90
     maintainers:
@@ -490,7 +490,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.781854213Z"
+    created: "2024-02-04T22:07:31.578930619Z"
     description: Initial cluster setup
     digest: 66ed80055b3ba26da0502bf041a8b38bb56e72abcc69de159292c08cb02c69c0
     maintainers:
@@ -510,7 +510,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.781640652Z"
+    created: "2024-02-04T22:07:31.578672058Z"
     description: Initial cluster setup
     digest: 7daf4b7d7e04bcc22a150c3fc3872837718713641dc04e470e563584e05a245d
     maintainers:
@@ -530,7 +530,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.781424731Z"
+    created: "2024-02-04T22:07:31.578398577Z"
     description: Initial cluster setup
     digest: c5b1eb47761c73d9e2002065e53a2a9af99637af735cd2259d63fd372f83bc1b
     maintainers:
@@ -554,7 +554,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.781207171Z"
+    created: "2024-02-04T22:07:31.578138616Z"
     description: Initial cluster setup
     digest: 327054d379d6f38ba619e768cad447b6d17e848e5b3a82ee7473120d76a45be0
     maintainers:
@@ -581,7 +581,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.810940551Z"
+    created: "2024-02-04T22:07:31.600534786Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -613,7 +613,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.803360566Z"
+    created: "2024-02-04T22:07:31.592796115Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -645,7 +645,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.801440879Z"
+    created: "2024-02-04T22:07:31.591095228Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -677,7 +677,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.799854834Z"
+    created: "2024-02-04T22:07:31.589553862Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -712,7 +712,7 @@ entries:
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
     appVersion: 0.1.17
-    created: "2024-02-04T21:52:07.796944944Z"
+    created: "2024-02-04T22:07:31.588062416Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -744,7 +744,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.795322378Z"
+    created: "2024-02-04T22:07:31.58656433Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -776,7 +776,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.807915661Z"
+    created: "2024-02-04T22:07:31.598838419Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -808,7 +808,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.806448176Z"
+    created: "2024-02-04T22:07:31.597387173Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -843,7 +843,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.804923451Z"
+    created: "2024-02-04T22:07:31.595918207Z"
     dependencies:
     - name: template
       repository: https://repo.2martens.de/charts
@@ -870,7 +870,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.856584586Z"
+    created: "2024-02-04T22:07:31.647986016Z"
     dependencies:
     - name: prometheus-kafka-exporter
       repository: https://prometheus-community.github.io/helm-charts
@@ -897,7 +897,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.841941097Z"
+    created: "2024-02-04T22:07:31.630227185Z"
     dependencies:
     - name: prometheus-kafka-exporter
       repository: https://prometheus-community.github.io/helm-charts
@@ -924,7 +924,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.829254654Z"
+    created: "2024-02-04T22:07:31.614742483Z"
     dependencies:
     - name: prometheus-kafka-exporter
       repository: https://prometheus-community.github.io/helm-charts
@@ -951,7 +951,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.814143842Z"
+    created: "2024-02-04T22:07:31.603524718Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -975,7 +975,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.812512757Z"
+    created: "2024-02-04T22:07:31.602021272Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -993,6 +993,29 @@ entries:
   template:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add ability to configure volumes/volume mounts
+      artifacthub.io/prerelease: "true"
+      artifacthub.io/signKey: |
+        fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+        url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+    apiVersion: v2
+    created: "2024-02-04T22:07:31.683577558Z"
+    description: A Helm library chart containing common templates, keeping application
+      templates short
+    digest: bd4e0cd9c01643b710da625a49655069fca60a9eaa7bac96e06e90738ee85b5f
+    maintainers:
+    - name: Jim Martens
+      url: https://2martens.de
+    name: template
+    sources:
+    - https://github.com/2martens/cloud-configuration
+    type: library
+    urls:
+    - https://repo.2martens.de/charts/template-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Provide volume for tmp directory
       artifacthub.io/prerelease: "true"
@@ -1000,7 +1023,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.893827873Z"
+    created: "2024-02-04T22:07:31.681878191Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 303549f464208ca69ea8a7027a1cafb78fad723aebe6e34ad31f9d9b7adeb3ab
@@ -1023,7 +1046,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.892008627Z"
+    created: "2024-02-04T22:07:31.680234225Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: ecf7b2f1a08c8e6618378dc4d7ae1ecb912987e2233c1ff682f6a4ea3b71966f
@@ -1048,7 +1071,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.890712702Z"
+    created: "2024-02-04T22:07:31.678558138Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: de676b8fdf152db13402b9c56ef4820bdf0a08a6677afb2b104ebecc85016926
@@ -1071,7 +1094,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.889716579Z"
+    created: "2024-02-04T22:07:31.676995972Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 59952d8d9f3f19e8a634d6bcc31a328366bb8f075d82cfcc9cc9e0afe216d4c1
@@ -1094,7 +1117,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.888802256Z"
+    created: "2024-02-04T22:07:31.675421686Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9d4c85cd9bbf0ed84ad49538d5d7a73505c1fb91b0196157185aabca3e17dd3b
@@ -1117,7 +1140,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.887826733Z"
+    created: "2024-02-04T22:07:31.673793759Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: bfec6499fa6bdc315a14f8e25d6305e2c3a3d12e5dc7a062b84dc728284c4ae7
@@ -1140,7 +1163,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.886859889Z"
+    created: "2024-02-04T22:07:31.671668671Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 6c0a508f70987d701b8e4c120326d2099038b9fbed39b6e6886b06b6574e1d6f
@@ -1165,7 +1188,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.885831166Z"
+    created: "2024-02-04T22:07:31.670602066Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: a74076b595a1847902ab20c68a3f9f0f0af1da493d5e2a9431c2a0d4948b131a
@@ -1188,7 +1211,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.88413108Z"
+    created: "2024-02-04T22:07:31.669507982Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 530c5741866e4841c5797bf73bec3b93d3c9cf387743cda0f8a8c326b7100025
@@ -1211,7 +1234,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.882322354Z"
+    created: "2024-02-04T22:07:31.668416578Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 3f15b6f80fe8576250139368df99effb009226bb6f2811c4d3f65581559da93f
@@ -1234,7 +1257,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.880422187Z"
+    created: "2024-02-04T22:07:31.667344453Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 5e0d7c692da3e372699674600f083a7cacebd8d2b3b61e2aa8ac76251c0b2341
@@ -1257,7 +1280,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.874729928Z"
+    created: "2024-02-04T22:07:31.663015676Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: f2c6c8776e7baee0ee47a64e4dcaa1954947de8e5a39a8b78a35a6305fa4b13c
@@ -1280,7 +1303,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.873852565Z"
+    created: "2024-02-04T22:07:31.661951312Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 1808563c428ecd9b96bcad83de53ecfb5b6299134da8f3c0ba19645a5b1832ba
@@ -1303,7 +1326,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.872617161Z"
+    created: "2024-02-04T22:07:31.660135624Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: da6d8bfea12b59377c8982c228d5f5384d749a1e904f16a7117f87733f036b5b
@@ -1326,7 +1349,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.871204796Z"
+    created: "2024-02-04T22:07:31.658227297Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 2474da346a1a6c939e4705fdea39e63103ee626e6502f984d1cdac6a1429bdbc
@@ -1349,7 +1372,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.869728911Z"
+    created: "2024-02-04T22:07:31.655956208Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 5da4ca5f4056b3aa412797ba29a29831ea221b8721a63a900a90aafad09d3b2e
@@ -1372,7 +1395,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.868301466Z"
+    created: "2024-02-04T22:07:31.654773243Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 7e7999a34ebc615efb71a5f523207b61780fc553946739021d1fad8f2eb2a70a
@@ -1395,7 +1418,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.867032382Z"
+    created: "2024-02-04T22:07:31.65402268Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 0fbc5e20df913180e9b98a497708af700f566734677b70560199bcf9bd4892af
@@ -1418,7 +1441,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.865688457Z"
+    created: "2024-02-04T22:07:31.653254077Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 933cd4b24f973a0814ef4784ff3872613782ed7804721415e912dc7e1cb4aa70
@@ -1441,7 +1464,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.864306133Z"
+    created: "2024-02-04T22:07:31.652507754Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 723b9a3e5e0779bbbcf4104dfca01a5bd3021af5465a79c3885e4ac3b22a49a1
@@ -1464,7 +1487,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.862883168Z"
+    created: "2024-02-04T22:07:31.651770031Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 7a7ce15f79fa14b47f6673f9359a22189c261f37f79dc934344658d875b7ed93
@@ -1487,7 +1510,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.860031438Z"
+    created: "2024-02-04T22:07:31.651054708Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9c0ed752f34ae83fcb529593e5552344c23e0d0165cf477338d7ef432f3c82af
@@ -1510,7 +1533,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.859206275Z"
+    created: "2024-02-04T22:07:31.650339865Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 24698e9ca2457c65e9d663572a1486a0a19020ece1b1c6752d2f66ef8f755b4e
@@ -1535,7 +1558,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.858433673Z"
+    created: "2024-02-04T22:07:31.649547662Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 6fcb903af84d7eb5bc4b740cdce4d771d2be9fbc4c94b34edd4339403e382055
@@ -1558,7 +1581,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.85760847Z"
+    created: "2024-02-04T22:07:31.648759819Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 748418826f8626c4c5fbfae5c547bbc6170667b0e739a2161b83e709fc61b863
@@ -1584,7 +1607,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.878720742Z"
+    created: "2024-02-04T22:07:31.666255249Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 454a42f431ff34b1fcd234cf3ee247125d3f844f5c058834625e02da02660534
@@ -1608,7 +1631,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.876381454Z"
+    created: "2024-02-04T22:07:31.665214405Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 9a8c2d6325e825b50bc03bce5371c37d3c31e679e172bb7ae1dcac5f08e52aea
@@ -1623,7 +1646,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v2
-    created: "2024-02-04T21:52:07.875656971Z"
+    created: "2024-02-04T22:07:31.664229121Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: 191ee5b13b058684e8caaa6fc7ddc347136a087a79f9584a9d91246505c2ff1f
@@ -1638,7 +1661,7 @@ entries:
     - https://repo.2martens.de/charts/template-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v2
-    created: "2024-02-04T21:52:07.875000409Z"
+    created: "2024-02-04T22:07:31.663337997Z"
     description: A Helm library chart containing common templates, keeping application
       templates short
     digest: be14de9bb789ee27782a8b13db03444e0c09344c63a3065769f76bdf75daec6f
@@ -1668,7 +1691,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.898334368Z"
+    created: "2024-02-04T22:07:31.686133208Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1701,7 +1724,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.912639977Z"
+    created: "2024-02-04T22:07:31.702302673Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1733,7 +1756,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.909282925Z"
+    created: "2024-02-04T22:07:31.699413742Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1765,7 +1788,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.902136141Z"
+    created: "2024-02-04T22:07:31.687777175Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1799,7 +1822,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.907473479Z"
+    created: "2024-02-04T22:07:31.695987968Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1825,7 +1848,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.905682713Z"
+    created: "2024-02-04T22:07:31.692832315Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1853,7 +1876,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.903973627Z"
+    created: "2024-02-04T22:07:31.689418422Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1880,7 +1903,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.919104479Z"
+    created: "2024-02-04T22:07:31.709836783Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1904,7 +1927,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.917340193Z"
+    created: "2024-02-04T22:07:31.706765811Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1928,7 +1951,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.915733467Z"
+    created: "2024-02-04T22:07:31.705191285Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1952,7 +1975,7 @@ entries:
         fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
         url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
     apiVersion: v2
-    created: "2024-02-04T21:52:07.914175182Z"
+    created: "2024-02-04T22:07:31.703747319Z"
     dependencies:
     - name: template
       repository: file://../template
@@ -1967,4 +1990,4 @@ entries:
     urls:
     - https://repo.2martens.de/charts/zookeeper-0.1.3.tgz
     version: 0.1.3
-generated: "2024-02-04T21:52:07.745109968Z"
+generated: "2024-02-04T22:07:31.542575434Z"
