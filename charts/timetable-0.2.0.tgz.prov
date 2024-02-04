@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Use restrictive security context by default
+  artifacthub.io/images: |
+    - name: 2martens/timetable:latest
+      image: 2martens/timetable:latest
+      platforms:
+        - linux/amd64
+        - linux/arm64
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: template
+  repository: file://../template
+  version: 0.4.0
+description: Installs the Timetable backend into the Kubernetes cluster
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: timetable
+sources:
+- - https://github.com/2martens/tsw-timetable
+type: application
+version: 0.2.0
+
+...
+files:
+  timetable-0.2.0.tgz: sha256:3661d3702760ba56b1e5cf75f470700445c5f7a2b859fa19398d2062a7487ee0
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlwAEDCRBHOTq9H5a3yAAAGZYQAAO7tFGLmGHae7NWr5oTmFYd
+icqBTuwwFI5R5uJM1qjxdPM8ufNAkc+rwRkEiVdjT9o3EBUa5kYffAznZzkPAYgP
+Anw969ULaZEgVQA0jg0dTwJoXrv+l/uJBjJC4mLzx3Bz+kGm8FT8TzXtUiUlc/md
+6vLa52tLTusvALzCiSx+pIP5aUsqts5jE8q8GKK5jtEPOglvzzGREJAfsKzMbZSy
+a0yVLf52jT4+siBA9M9QhfhyzJnFgDfdSTjISJcfhtGq8yedNt56AVLZxtCt3R2J
+Enmx7tPGvixIXmejjNP3r4OWXenNsc5Cf+Gp4Z5okk0Q+E71pAoMSvYBHpw/022f
+gVVBXueayBujiO8ixoAYFvXzivOztT4CRUIKVojUpYziXZWlF1t7UPmJTmudZb6m
+pCJ/3prdiBC5gTFpAfPLN90Zq2/zGfATv2Wf1e9yFu3mSr6Pf1giEOary0DgY7Ab
+XjhmRQD/wqXvxbsOiliBcVmQwPmpMGZ6RWvKsN7dHGstsmT4y4xo2cusNr7IrLBs
+D/zgAZW1Az1xA3Gnd3l5QZiMtX3JlisGIDwZqhzo//F6Z6xY23c6OG1MvGYsYbGP
+PH6Qfc+NDrJGDiqWw+UjaPQrNOqPN+7qdPI00GpbR6zjrn04gs2qjXUXRdHzQs7q
+qKmRMa2ThVH2M8U4/vmY
+=YjI1
+-----END PGP SIGNATURE-----
