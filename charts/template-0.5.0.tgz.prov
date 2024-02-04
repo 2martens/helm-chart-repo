@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Add ability to configure volumes/volume mounts
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: A Helm library chart containing common templates, keeping application
+  templates short
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: template
+sources:
+- - https://github.com/2martens/cloud-configuration
+type: library
+version: 0.5.0
+
+...
+files:
+  template-0.5.0.tgz: sha256:bd4e0cd9c01643b710da625a49655069fca60a9eaa7bac96e06e90738ee85b5f
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlwAqYCRBHOTq9H5a3yAAAmncQAGW59T/qiH2YgokwOixB0YBq
+x+Kdto0wjy/NfPK4jqSs3drGfljP111xh7EGtXRKLEzFRGOWH5tiPlE/xXlF7VT6
+Et1xF4tW9xf2rd3IoNP8U5TEjjGR6FdfCtFxn55iQcHJGYSTiFdEh03Ig7trOjtJ
+YHLYJfFxvZn0QjJdeDz5eZVzu5vTz9EFxK5l+MeXZtDbhDgVaYzov/jf9sYh3yoD
+20sE02EzjbZCOEj7TbrqHTBNcZA6XD2BV3mpUtZAuNSl65iHsTPi2rpkKvbtn8hr
+bhBjCaFeBbbrRgY6quOO3pKpe8yjq+isPSqeEKHeGdzNSmpNa3oQ0cMA0d/m+l56
+q+UqdZJFjb4tO3t84Vsu+pL21JYx+X0XxQFvjQTPuF7RRHMEFAJFg3yoa91/SXbn
+mPhTfzC0iPsSO9hiwFUpEg3ZAVXur8FrFo2SJOxV6ym7pb2KXAuvoS+dAvaV4C9V
+n7pfvJ9u7QjNqR5mj+hgitq670boN5Z5MCMCEXbuIi5OahpYGQ164WGPpS8k7bbj
+bMZrk3HZpqSEQn7BgYWdbjakZNo3GFlgBBo34F4Os8B5aHU+bLsumDamHfmkw0sy
+eNa7j7rpITo7E0YWBWKW/hRPw1JpfEqQSZNbdwbXshbA8XrjFGaZjc9VRrbvpp71
+UWoRESaAiQevtZtQtf5O
+=t0h5
+-----END PGP SIGNATURE-----
