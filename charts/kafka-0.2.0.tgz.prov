@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: changed
+      description: Use restrictive security context by default
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: prometheus-kafka-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 2.8.0
+- - name: template
+  repository: file://../template
+  version: 0.4.0
+description: Simple Kafka chart to get started
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: kafka
+type: application
+version: 0.2.0
+
+...
+files:
+  kafka-0.2.0.tgz: sha256:bae8df81e26e2bbbef8e4e7842be1ea921406a73d418b457792b6ef39fb470f2
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlwABeCRBHOTq9H5a3yAAA29UQAKlzLXnd5AIVqnFkcv2is00X
+IZ0st2FwZaD/BS0ljfTkoSRcrSXayuyyhd3VKgwdj5ta5JecZiu3r3nXXyoGdQv1
+b5s2xNMblTF4T9fNFbxDkI9o/Qhdxb43LyWdBSnH3+/ofBlAGe3w2V+sNUPaYjsy
+3kR3/vMLc884tAKuCNDFZbcfomLnAZuGEKvEFRQ/myWXymhnWruQXMzRdDs1kO6J
+W4WRIfq43rZ53ZwOMi6axMvBZY2mSWtMVJ73llZX4LeDBARvlMVJeyb3tEENUe/+
+L+neZLGCCN25vVNDBtzkvrlqXYuj3JehPyRPqAPEZHOderydCu06XGUAZ4+CluAj
+TQ+/HwjDGyTIQSPo99M55fRJEup07xe+OftYDqUzoh+Gm9SeRWzuusByRXSAlPUy
+ZF61iZL6NkyJw6nsrRYWQFHTpFpHb+9mg8FxTlKzDdKiufMVD+PzSvVbT78HdElV
+Xqg3wH48RwqqTiSIoU/auD8U9oQAomuSMUhs15aNIKSDYYWRzOd7BYLADmUK4Z5m
+te64RObAlO/9K0IOD4UGL5jJC6TP6UJ1Orpb0ugzZ/iOv5QEb15xV5p1HfnHsbX5
+SEKL2ijlDg/n70WC4ir/y9t9OqcCKeizVNzPW2UPINQRLIHlVzdjooraeZ2UUG8H
+bcexNMmiQjx3iBIAlr2E
+=+I3M
+-----END PGP SIGNATURE-----
