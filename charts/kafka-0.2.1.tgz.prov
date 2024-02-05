@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: fixed
+      description: Mount writable volume for /var/log/kafka
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+dependencies:
+- - name: prometheus-kafka-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 2.8.0
+- - name: template
+  repository: file://../template
+  version: 0.5.0
+description: Simple Kafka chart to get started
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: kafka
+type: application
+version: 0.2.1
+
+...
+files:
+  kafka-0.2.1.tgz: sha256:5f2b5c3bd66736fa0b5531988f960fda5d636f2406eab6be62f2ff7921e10d22
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJlwIg5CRBHOTq9H5a3yAAAM4oQAK7LFlVlynsunSl4iCchJRLo
+MraxWxOLbCOHh/qhy+oQ4bNC2qpxUSNWYQwZLfSC5zW4935HG7JiVcFGyAmyLtju
+OEFFHo3wa1IWPRCRNtzCee3UgVy+OanU7SObAsPHICT8mEEMt+XagLQlurG+KCTo
+AWTQHk8tchfW6vati9rQKEWfYpfg319oA+yql+q1fVJMticUDTbNkxBu9ExdwksA
+BVA8wtdWKh9YJt3ovmoGyNheUdoo90C+LN5TLhHXH4MRmaJtg+YXSgbxotztdjoX
+emMiHkVSjIyFPo5HnkwFtMjqZOaloISDmujdw6dQilth2i6sVf152IZTSA3BFwsH
+Nt/2D20eaWbSKDu1lcqZZT6iGgjmRLJmWBDJDbzfLPpilvhX7CqA54xAevRlBvqF
+F4nveIBCcAQf2vlbRauXMffwTDuzn4EiY69mRV+IRY+ER+c7LODrN9KMlIp1nkGB
+CFBtU8fvjuWkT1jTCHNXzvOfXvRWSD6gYsAKHKQosuIxMEpYhx+yC4eoo2mmtARU
+1GLdAj0wgmMuW30d7Bb3na2zlt9T1WuK5s4m1cBJjOFEQRd2fRR3/xAqa30SLx2q
+y3iVr0pTcFpH6P4Zcd1o4JH5Bumt4gFqi+OsRCEsy8wUbHUVJuHtpubJ5K1oeLcE
+WsKbILFP1G2m55+kQUiu
+=vJ+k
+-----END PGP SIGNATURE-----
