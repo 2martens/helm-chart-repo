@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Add support for ECR private registries
+  artifacthub.io/prerelease: "true"
+  artifacthub.io/signKey: |
+    fingerprint: F0F153B65BAD467201D7544E47393ABD1F96B7C8
+    url: https://mafiasi.de/pks/key/47393ABD1F96B7C8.asc
+apiVersion: v2
+description: Initial cluster setup
+maintainers:
+- - name: Jim Martens
+  url: https://2martens.de
+name: cluster_setup
+type: application
+version: 0.6.0
+
+...
+files:
+  cluster_setup-0.6.0.tgz: sha256:d3b81083eaf7fc81a5b19ea47659270f8781fe07bc8eeca22d1017d8053cfbaf
+-----BEGIN PGP SIGNATURE-----
+
+wsFcBAEBCgAQBQJm2F07CRBHOTq9H5a3yAAAY+4QAD9mHV19dm73BCKFK7rOh6Vg
+8BD8RewMvoRPJHduxuH395LdVNCzjMTxcjjRW9PuKUhbJdUvLHF6O/fkDI/RlIFI
+AgiwV0aSbpvPJMRgVas0ILb4h8DAixSzLaa3Rh3XMzm2AmGj1Tue18+eXkORlrh7
+CU5vuwUT3KUKvfS2OCuyt2ocyHJNIf07toHGampqlemUPpVnNhgYub/JxEAPvhVi
+qiu0ZtbnOPKGaeMIjr7HA9tsb64E0Xk4Vvs9wOOxKY+CexyYt48/j/PutqM/0oeF
+Lmamd7oIQPfYcvW/OBEw41WWeg9VUQNxqtpNR9lQIp6oGWb9RkZa2+jHrabT1eOR
+LXfavoNwJ2JPm4y67TmnjGZPH7lVmVcWhM5mlmXXWR/5Kzwhp45J7AMIuK5tx7xJ
+6ctxwz6PkjjNnLKDCPdKIxe5/5p8ev8g/PhDOhDTyV1lokuByfUcWH5uzuolwr7t
+aUhMV7beskMaPgZRSWOQWJhg1KrRf5IDItN8heka47SNENfaxHEiBQ/nSGks0REH
+19Kb/HADBU1eErn8eEa+3YpGEAHo+jugsWar4jzUhpDgXO7LbNDDwrZzEtQMOwrq
+zPLMek3gC9yqViYWIWmb3bXdb2W/WRuhVjNEwDj/9yl6WCnfGTIEBP6kEnrT96OR
+ibmzWOXTUlf5K6tEJF5M
+=PKb9
+-----END PGP SIGNATURE-----
